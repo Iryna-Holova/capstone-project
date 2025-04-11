@@ -9,7 +9,7 @@
     "dev:frontend": "parcel src/index.html --port 1234",
     "dev:backend": "json-server --watch db.json --port 3001",
     "build": "parcel build src/index.html",
-    "start": "npm-run-all build --parallel start:frontend start:backend",
+    "start": "npm-run-all --parallel start:frontend start:backend",
     "start:frontend": "parcel src/index.html --dist-dir ./dist --no-hmr --port 1234",
     "start:backend": "json-server --watch db.json --port 3001"
   },

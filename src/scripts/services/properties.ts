@@ -2,7 +2,7 @@ import { CurrencyConverter } from "../models/CurrencyConverter";
 import { ListingObject } from "../types/propertyParts";
 import { ListingsResponse } from "../types/response";
 
-const API_BASE = `${window.location.hostname}:3001`;
+const API_BASE = `${window.location.protocol}//${window.location.hostname}:3001`;
 
 export const getAllProperties = async (
   filters: Record<string, (number | null)[] | string> = {}
