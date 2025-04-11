@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <title>Sweet Home - Real Estate Platform</title>
+    <meta
+      name="description"
+      content="Real Estate Platform for buying and renting properties"
+    />
+    <link rel="stylesheet" href="./styles/main.scss" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a data-spa-link href="/" class="logo logo-header" aria-label="Logo">
+            <span>Sweet</span>
+            <svg width="48" height="48">
+              <use href="./assets/sprite.svg#icon-logo" />
+            </svg>
+            <span>Home</span>
+          </a>
+          <ul class="nav-list" id="nav" draggable="true">
+            <li><a data-spa-link href="/" class="nav-link">Home</a></li>
+            <li>
+              <button type="button" class="nav-link" data-open="/gallery">
+                <span>Gallery</span
+                ><svg width="16" height="16">
+                  <use href="./assets/sprite.svg#icon-chevron-right" />
+                </svg>
+              </button>
+              <ul class="nav-sub-list" id="/gallery">
+                <li>
+                  <a data-spa-link href="/gallery/rent" class="nav-sub-link"
+                    >Rent</a
+                  >
+                </li>
+                <li>
+                  <a data-spa-link href="/gallery/buy" class="nav-sub-link"
+                    >Buy</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a data-spa-link href="/contacts" class="nav-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="select-wrapper">
+          <select
+            name="currency"
+            id="currency"
+            onclick="this.classList.toggle('active')"
+            onblur="this.classList.remove('active')"
+            aria-label="Currency"
+          >
+            <option value="none" selected disabled hidden>...</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+          </select>
+        </div>
+        <button class="btn-large primary">Sign up</button>
+        <button
+          onclick="classList.toggle('open'); this.setAttribute('aria-expanded', this.classList.contains('open'))"
+          type="button"
+          id="burger"
+          class="burger"
+          data-modal="nav"
+          aria-label="Menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+    <main id="content" class="content"></main>
+    <footer class="footer" id="footer">
+      <div class="footer-top container">
+        <div class="footer-logo-text">
+          <a data-spa-link data-spa-scroll href="/" class="footer-link"
+            >About us</a
+          >
+          <p>
+            Our platform offers a curated selection of real estate listings
+            tailored to your preferences. Experience a seamless journey towards
+            finding your perfect home with Sweet Home
+          </p>
+          <a data-spa-link data-spa-scroll href="/" class="logo logo-footer">
+            <span>Sweet</span>
+            <svg width="64" height="64">
+              <use href="./assets/sprite.svg#icon-logo" />
+            </svg>
+            <span>Home</span>
+          </a>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li>
+              <a
+                data-spa-link
+                data-spa-scroll
+                href="/gallery/rent"
+                class="footer-link"
+                >Rent</a
+              >
+            </li>
+            <li>
+              <a
+                data-spa-link
+                data-spa-scroll
+                href="/gallery/rent?propertyType=Studio"
+                class="footer-sublink"
+                >Studio</a
+              >
+            </li>
+            <li>
+              <a
+                data-spa-link
+                data-spa-scroll
+                href="/gallery/rent?propertyType=Apartment"
+                class="footer-sublink"
+                >Apartment</a
+              >
+            </li>
+            <li>
+              <a
+                data-spa-link
+                data-spa-scroll
+                href="/gallery/rent?propertyType=House"
+                class="footer-sublink"
+                >House</a
+              >
+            </li>
+            <li>
+              <a
+                data-spa-link
+                data-spa-scroll
+                href="/gallery/rent?propertyType=Villa"
+                class="footer-sublink"
+                >Villa</a
+              >
+            </li>
+            <li>
+              <a
+                data-spa-link
+                data-spa-scroll
+                href="/gallery/rent?propertyType=Commercial"
+                class="footer-sublink"
+                >Commercial</a
+              >
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a
+                data-spa-link
+                data-spa-scroll
+                href="/gallery/buy"
+                class="footer-link"
+                >Buy</a
+              >
+            </li>
+            <li>
+              <a
+                data-spa-link
+                data-spa-scroll
+                href="/gallery/buy?propertyType=Studio"
+                class="footer-sublink"
+                >Studio</a
+              >
+            </li>
+            <li>
+              <a
+                data-spa-link
+                data-spa-scroll
+                href="/gallery/buy?propertyType=Apartment"
+                class="footer-sublink"
+                >Apartment</a
+              >
+            </li>
+            <li>
+              <a
+                data-spa-link
+                data-spa-scroll
+                href="/gallery/buy?propertyType=House"
+                class="footer-sublink"
+                >House</a
+              >
+            </li>
+            <li>
+              <a
+                data-spa-link
+                data-spa-scroll
+                href="/gallery/buy?propertyType=Villa"
+                class="footer-sublink"
+                >Villa</a
+              >
+            </li>
+            <li>
+              <a
+                data-spa-link
+                data-spa-scroll
+                href="/gallery/buy?propertyType=Commercial"
+                class="footer-sublink"
+                >Commercial</a
+              >
+            </li>
+          </ul>
+          <a data-spa-link data-spa-scroll href="/contacts" class="footer-link"
+            >Contacts</a
+          >
+        </div>
+      </div>
+      <hr />
+      <div class="footer-bottom container">
+        <ul class="footer-socials">
+          <li>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              ><svg width="32" height="32">
+                <use href="./assets/sprite.svg#icon-facebook" /></svg
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              ><svg width="32" height="32">
+                <use href="./assets/sprite.svg#icon-instagram" /></svg
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Youtube"
+              ><svg width="32" height="32">
+                <use href="./assets/sprite.svg#icon-youtube" /></svg
+            ></a>
+          </li>
+        </ul>
+        <p>&copy; 2025 Sweet Home. All rights reserved.</p>
+      </div>
+      <div class="footer-underline">
+        <div class="container">
+          <span>Made with</span>
+          <svg width="24" height="24">
+            <use href="./assets/sprite.svg#icon-heart-filled" />
+          </svg>
+          <span>by</span>
+          <a
+            href="https://github.com/Iryna-Holova"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+            ><svg width="24" height="24">
+              <use href="./assets/sprite.svg#icon-github" />
+            </svg>
+            Iryna-Holova</a
+          >
+        </div>
+      </div>
+    </footer>
+    <div id="backdrop" class="backdrop"></div>
+    <script type="module" src="./scripts/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+.footer {
+  color: $color-bg-secondary;
+  background-color: $color-primary;
+  & > hr {
+    margin: 0;
+    border: none;
+    border-top: 1px solid $color-tertiary;
+  }
+  &-top {
+    @include flex-wrap((32px 64px));
+    padding-top: 16px;
+    padding-bottom: 16px;
+    justify-content: space-between;
+  }
+  &-logo-text {
+    @include flex-column(0);
+    max-width: 100%;
+    flex: 1;
+    flex-basis: min-content;
+    & > p {
+      font-size: 14px;
+      margin-bottom: 16px;
+      line-height: 1.5;
+    }
+    & > .logo {
+      margin-top: auto;
+      max-width: 100%;
+    }
+  }
+  &-links {
+    @include flex-wrap(32px);
+    flex: 1;
+    flex-basis: max-content;
+    justify-content: space-between;
+  }
+  &-link {
+    @include text-medium;
+    display: inline-block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  &-sublink {
+    display: inline-block;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  &-bottom {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+    @include mobile {
+      @include flex-column(32px);
+    }
+    @include not-mobile {
+      @include flex(0);
+      flex-direction: row-reverse;
+      justify-content: space-between;
+    }
+  }
+  &-socials {
+    @include flex(16px);
+    justify-content: center;
+    & svg {
+      @include transition((transform, color));
+      will-change: transform;
+    }
+    & a:hover > svg {
+      color: $color-bg-primary;
+      transform: scale(1.1);
+    }
+  }
+  &-underline {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: $color-bg-primary;
+    color: $color-primary;
+    & > div {
+      @include flex-wrap(4px);
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      & > svg {
+        fill: $color-error;
+      }
+      & > a {
+        @include flex(4px);
+        @include transition((color, text-decoration-color));
+        text-decoration: underline;
+        align-items: center;
+        font-size: 14px;
+        &:hover {
+          text-decoration-color: transparent;
+          color: $color-primary-active;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,185 @@
+@use "./variables" as *;
+
+@mixin mobile {
+  @media screen and (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin not-mobile {
+  @media screen and (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: #{$tablet-width}) and (max-width: #{$desktop-small-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop-small-only {
+  @media screen and (min-width: #{$desktop-small-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop-large-only {
+  @media screen and (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: #{$desktop-small-width}) {
+    @content;
+  }
+}
+
+@mixin retina {
+  @media only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-device-pixel-ratio: 2) {
+    @content;
+  }
+}
+
+@mixin flex($gap: 8px) {
+  display: flex;
+  gap: $gap;
+}
+
+@mixin flex-column($gap: 8px) {
+  @include flex($gap);
+  flex-direction: column;
+}
+
+@mixin flex-wrap($gap: 8px) {
+  @include flex($gap);
+  flex-wrap: wrap;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin bordered($color: $color-border, $width: 1px, $radius: 16px) {
+  border: $width solid $color;
+  border-radius: $radius;
+}
+
+@mixin chips($color: $color-secondary, $size: 14px) {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: $size;
+  font-weight: 500;
+  line-height: 1;
+  color: $color;
+
+  & > svg {
+    flex-shrink: 0;
+  }
+}
+
+@mixin text-ellipsis($lines: 1) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  line-clamp: $lines;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+@mixin text-heading {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+}
+
+@mixin text-large {
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  @include mobile {
+    font-size: 28px;
+  }
+  @include not-mobile {
+    font-size: 32px;
+  }
+}
+
+@mixin text-medium {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+@mixin text-body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@mixin text-small {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+@mixin float($position: right) {
+  float: $position;
+  &:after {
+    content: ".";
+    display: block;
+    clear: $position;
+    visibility: hidden;
+    height: 0;
+  }
+}
+
+@mixin transition($property, $duration: 250ms) {
+  transition-property: $property;
+  transition-duration: $duration;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@mixin transition-menu($property: transform, $duration: 500ms) {
+  transition-property: $property;
+  transition-duration: $duration;
+  transition-timing-function: cubic-bezier(0.25, 0.25, 0, 1.07);
+}
+
+@mixin transform-rotate($deg: 180deg) {
+  -webkit-transform: rotate($deg);
+  -moz-transform: rotate($deg);
+  -o-transform: rotate($deg);
+  transform: rotate($deg);
+}
+
+@mixin fadeBoth {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 500ms, opacity 500ms linear,
+    background-color 500ms linear;
+  &.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 500ms linear;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@mixin fadeIn {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}

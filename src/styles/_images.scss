@@ -1,0 +1,106 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+.images {
+  @include transition(background-color, 500ms);
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  &-list {
+    & > li {
+      @include fadeBoth;
+      position: absolute;
+    }
+  }
+  &[data-open="false"] {
+    border-radius: 16px;
+    & > .images-list {
+      width: 100%;
+      aspect-ratio: 4/3;
+      & > li {
+        width: 100%;
+        height: 100%;
+        background-color: $color-primary-active;
+        & > img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    & > .images-modalBtn {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    & > .closeBtn {
+      display: none;
+    }
+  }
+  &[data-open="true"] {
+    background-color: black;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100%;
+    & > .images-list {
+      & > li {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        & > img {
+          max-width: 100vw;
+          max-height: 100vh;
+        }
+      }
+    }
+    & > .images-modalBtn {
+      display: none;
+    }
+    & > .closeBtn {
+      background-color: transparent;
+    }
+  }
+  &-control {
+    @include flex-center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 80px;
+    color: $color-bg-secondary;
+    & > svg {
+      @include transition(opacity);
+      opacity: 0.5;
+      pointer-events: none;
+    }
+    &:hover > svg {
+      opacity: 1;
+    }
+    &:disabled > svg {
+      opacity: 0;
+    }
+  }
+  &-control.left {
+    background: linear-gradient(270deg, transparent, $color-overlay);
+  }
+  &-control.right {
+    right: 0;
+    background: linear-gradient(90deg, transparent, $color-overlay);
+  }
+  &-counter {
+    @include flex-center;
+    @include text-medium;
+    position: absolute;
+    bottom: 8px;
+    width: 80px;
+    height: 40px;
+    right: 50%;
+    transform: translateX(50%);
+    border-radius: 20px;
+    color: $color-secondary;
+    background-color: $color-bg-transparent;
+  }
+}

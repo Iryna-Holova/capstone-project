@@ -1,0 +1,335 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+.home {
+  &-hero {
+    margin-bottom: 24px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    align-items: flex-start;
+    @include mobile {
+      @include flex-column(16px);
+    }
+    @include tablet {
+      @include flex-column(24px);
+    }
+    @include desktop {
+      @include flex(32px);
+      align-items: center;
+    }
+    & > h1 {
+      letter-spacing: -0.06em;
+      & > strong {
+        font-weight: 600;
+      }
+      @include mobile {
+        font-size: 48px;
+      }
+      @include not-mobile {
+        font-size: 80px;
+      }
+    }
+    & > p {
+      flex: 1;
+      font-size: 20px;
+      line-height: 1.5;
+    }
+  }
+
+  &-features {
+    &-list {
+      @include flex-wrap((16px 32px));
+      &-item {
+        @include flex-column(16px);
+        padding: 16px;
+        border-radius: 16px;
+        @include mobile {
+          flex-basis: 100%;
+        }
+        @include tablet {
+          flex-basis: calc(50% - 16px);
+        }
+        @include desktop {
+          flex-basis: calc(25% - 24px);
+        }
+        &:nth-child(1) {
+          background-color: $color-bg-primary;
+        }
+        &:nth-child(2) {
+          color: $color-bg-primary;
+          background-color: $color-primary;
+        }
+        &:nth-child(3),
+        &:nth-child(4) {
+          background-color: $color-bg-accent;
+        }
+        & > strong {
+          font-size: 64px;
+          font-weight: 600;
+          letter-spacing: -0.06em;
+        }
+        & > p {
+          font-size: 20px;
+          line-height: 1.5;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  &-slider {
+    margin-top: -16px;
+    margin-bottom: 24px;
+    border-radius: 32px;
+    overflow: hidden;
+    position: relative;
+    color: $color-bg-primary;
+    @include mobile {
+      margin-left: -8px;
+      margin-right: -8px;
+      height: 560px;
+    }
+    @include not-mobile {
+      margin-left: -24px;
+      margin-right: -24px;
+      height: 768px;
+    }
+
+    &-controls {
+      @include flex(24px);
+      position: absolute;
+      z-index: 3;
+      @include mobile {
+        right: 16px;
+        bottom: 16px;
+      }
+      @include not-mobile {
+        right: 40px;
+        bottom: 40px;
+      }
+      & > button {
+        @include transition(background-color);
+        border-radius: 50%;
+        padding: 16px;
+        color: $color-bg-primary;
+        &:hover {
+          background-color: $color-bg-transparent;
+        }
+        @include mobile {
+          border: 2px solid $color-bg-primary;
+        }
+        @include not-mobile {
+          border: 3px solid $color-bg-primary;
+        }
+      }
+    }
+
+    &-links {
+      @include flex-wrap(32px);
+      width: 100%;
+      justify-content: center;
+      position: absolute;
+      z-index: 3;
+      @include mobile {
+        top: 16px;
+      }
+      @include not-mobile {
+        top: 40px;
+      }
+      & > a {
+        @include flex(8px);
+        @include transition(background-color);
+        align-items: center;
+        padding: 12px 24px;
+        font-size: 24px;
+        font-weight: 500;
+        border-radius: 32px;
+        color: $color-bg-primary;
+        &:hover {
+          background-color: $color-bg-transparent;
+        }
+        @include mobile {
+          border: 2px solid $color-bg-primary;
+        }
+        @include not-mobile {
+          border: 3px solid $color-bg-primary;
+        }
+      }
+    }
+
+    &-slide-container {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      animation: hide 1.5s ease-in-out forwards;
+      & > h2 {
+        @include transition((bottom, opacity), 1.5s);
+        position: absolute;
+        bottom: -124px;
+        right: 50%;
+        transform: translateX(50%);
+        font-size: 96px;
+        font-weight: 600;
+        opacity: 0;
+        @include mobile {
+          font-size: 48px;
+        }
+      }
+      &.is-active {
+        animation: show 0s ease-in-out forwards;
+        & > h2 {
+          bottom: 20%;
+          opacity: 1;
+        }
+        & > .home-slider-slide {
+          animation: clipPath 1.5s ease-in-out forwards;
+        }
+      }
+    }
+
+    &-slide {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      right: 0;
+      bottom: 0;
+      background-size: cover;
+      background-position: center;
+
+      &-1 {
+        @include mobile {
+          background-image: url("../assets/images/slider-mobile-1.webp");
+          @include retina {
+            background-image: url("../assets/images/slider-mobile-1@2x.webp");
+          }
+        }
+        @include tablet {
+          background-image: url("../assets/images/slider-tablet-1.webp");
+          @include retina {
+            background-image: url("../assets/images/slider-tablet-1@2x.webp");
+          }
+        }
+        @include desktop {
+          background-image: url("../assets/images/slider-desktop-1.webp");
+          @include retina {
+            background-image: url("../assets/images/slider-desktop-1@2x.webp");
+          }
+        }
+      }
+      &-2 {
+        @include mobile {
+          background-image: url("../assets/images/slider-mobile-2.webp");
+          @include retina {
+            background-image: url("../assets/images/slider-mobile-2@2x.webp");
+          }
+        }
+        @include tablet {
+          background-image: url("../assets/images/slider-tablet-2.webp");
+          @include retina {
+            background-image: url("../assets/images/slider-tablet-2@2x.webp");
+          }
+        }
+        @include desktop {
+          background-image: url("../assets/images/slider-desktop-2.webp");
+          @include retina {
+            background-image: url("../assets/images/slider-desktop-2@2x.webp");
+          }
+        }
+      }
+      &-3 {
+        @include mobile {
+          background-image: url("../assets/images/slider-mobile-3.webp");
+          @include retina {
+            background-image: url("../assets/images/slider-mobile-3@2x.webp");
+          }
+        }
+        @include tablet {
+          background-image: url("../assets/images/slider-tablet-3.webp");
+          @include retina {
+            background-image: url("../assets/images/slider-tablet-3@2x.webp");
+          }
+        }
+        @include desktop {
+          background-image: url("../assets/images/slider-desktop-3.webp");
+          @include retina {
+            background-image: url("../assets/images/slider-desktop-3@2x.webp");
+          }
+        }
+      }
+      &-4 {
+        @include mobile {
+          background-image: url("../assets/images/slider-mobile-4.webp");
+          @include retina {
+            background-image: url("../assets/images/slider-mobile-4@2x.webp");
+          }
+        }
+        @include tablet {
+          background-image: url("../assets/images/slider-tablet-4.webp");
+          @include retina {
+            background-image: url("../assets/images/slider-tablet-4@2x.webp");
+          }
+        }
+        @include desktop {
+          background-image: url("../assets/images/slider-desktop-4.webp");
+          @include retina {
+            background-image: url("../assets/images/slider-desktop-4@2x.webp");
+          }
+        }
+      }
+      &-5 {
+        @include mobile {
+          background-image: url("../assets/images/slider-mobile-5.webp");
+          @include retina {
+            background-image: url("../assets/images/slider-mobile-5@2x.webp");
+          }
+        }
+        @include tablet {
+          background-image: url("../assets/images/slider-tablet-5.webp");
+          @include retina {
+            background-image: url("../assets/images/slider-tablet-5@2x.webp");
+          }
+        }
+        @include desktop {
+          background-image: url("../assets/images/slider-desktop-5.webp");
+          @include retina {
+            background-image: url("../assets/images/slider-desktop-5@2x.webp");
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes clipPath {
+  from {
+    opacity: 0;
+    clip-path: circle(10% at right bottom);
+  }
+  to {
+    opacity: 1;
+    clip-path: circle(150% at right bottom);
+  }
+}
+
+@keyframes hide {
+  0% {
+    z-index: 2;
+  }
+  1% {
+    z-index: 1;
+  }
+  99% {
+    z-index: 1;
+  }
+  100% {
+    z-index: 0;
+  }
+}
+
+@keyframes show {
+  from {
+    z-index: 0;
+  }
+  to {
+    z-index: 2;
+  }
+}

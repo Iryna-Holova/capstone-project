@@ -1,0 +1,176 @@
+<div id="gallery" class="gallery container">
+  <div id="filters-container" data-open="false" class="filters">
+    <form id="filtersForm" class="filters-form">
+      <fieldset class="filters-form-fieldset">
+        <legend class="filters-form-legend">Property type</legend>
+        <label class="checkbox-field"
+          ><input type="radio" name="propertyType" value="All" checked />
+          All</label
+        >
+        <label class="checkbox-field"
+          ><input type="radio" name="propertyType" value="Studio" />
+          Studio</label
+        >
+        <label class="checkbox-field">
+          <input type="radio" name="propertyType" value="Apartment" />
+          Apartment</label
+        >
+        <label class="checkbox-field"
+          ><input type="radio" name="propertyType" value="House" /> House</label
+        >
+        <label class="checkbox-field"
+          ><input type="radio" name="propertyType" value="Villa" /> Villa</label
+        >
+        <label class="checkbox-field"
+          ><input type="radio" name="propertyType" value="Commercial" />
+          Commercial</label
+        >
+      </fieldset>
+      <fieldset class="filters-form-fieldset" id="priceRange">
+        <legend class="filters-form-legend">Price range</legend>
+        <div class="filters-form-range-inputs">
+          <label class="field">
+            <span>Min</span>
+            <input type="number" name="priceRange" value="" class="input" />
+          </label>
+          <label class="field">
+            <span>Max</span>
+            <input type="number" name="priceRange" value="" class="input" />
+          </label>
+        </div>
+        <div class="slider-container">
+          <div class="slider">
+            <div class="progress"></div>
+          </div>
+          <div class="range-input">
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value="0"
+              step="1"
+              aria-label="Price min range slider"
+            />
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value="100"
+              step="1"
+              aria-label="Price max range slider"
+            />
+          </div>
+        </div>
+        <span class="unit" data-unit>$</span>
+      </fieldset>
+      <fieldset class="filters-form-fieldset" id="areaRange">
+        <legend class="filters-form-legend">Total area range</legend>
+        <div class="filters-form-range-inputs">
+          <label class="field">
+            <span>Min</span>
+            <input type="number" name="areaRange" value="" class="input" />
+          </label>
+          <label class="field">
+            <span>Max</span>
+            <input type="number" name="areaRange" value="" class="input" />
+          </label>
+        </div>
+        <div class="slider-container">
+          <div class="slider">
+            <div class="progress"></div>
+          </div>
+          <div class="range-input">
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value="0"
+              step="1"
+              aria-label="Area min range slider"
+            />
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value="100"
+              step="1"
+              aria-label="Area max range slider"
+            />
+          </div>
+        </div>
+        <span class="unit" data-unit>sqmt</span>
+      </fieldset>
+      <div class="filters-form-buttons">
+        <button disabled type="reset" class="btn-medium secondary js-close">
+          Clear
+        </button>
+        <button disabled type="submit" class="btn-medium primary js-close">
+          Apply filters
+        </button>
+      </div>
+    </form>
+    <button class="closeBtn js-close" aria-label="Close">
+      <span class="leftright"></span>
+      <span class="rightleft"></span>
+    </button>
+  </div>
+
+  <div class="gallery-content">
+    <div class="gallery-heading">
+      <div class="gallery-heading-content">
+        <h2 id="heading" class="gallery-heading-title"></h2>
+        <p id="count" class="gallery-heading-subtitle"></p>
+      </div>
+      <div class="select-wrapper">
+        <strong>Sort by:</strong>
+        <select
+          name="sort"
+          id="sort"
+          onclick="this.classList.toggle('active')"
+          onblur="this.classList.remove('active')"
+          aria-label="Sort"
+        >
+          <option value="postedAt">Date</option>
+          <option value="normalizedPrice[0]">Price</option>
+          <option value="size.totalArea">Area</option>
+          <option value="favorites">Popularity</option>
+        </select>
+        <svg width="16" height="16">
+          <use href="../assets/sprite.svg#icon-chevron-left" />
+        </svg>
+      </div>
+      <button
+        class="orderBtn"
+        data-order="desc"
+        type="button"
+        id="order"
+        aria-label="Order"
+        title="Order"
+      >
+        <svg width="32" height="32">
+          <use href="../assets/sprite.svg#icon-order" />
+        </svg>
+      </button>
+      <button
+        class="filtersBtn"
+        type="button"
+        id="filters"
+        aria-label="Filters"
+      >
+        <svg width="32" height="32">
+          <use href="../assets/sprite.svg#icon-filters" />
+        </svg>
+      </button>
+    </div>
+
+    <ul id="listings" class="listings"></ul>
+
+    <div
+      id="pagination"
+      class="pagination"
+      aria-label="Page navigation"
+      role="navigation"
+    ></div>
+  </div>
+  <div id="filters-backdrop" class="backdrop"></div>
+</div>

@@ -1,0 +1,22 @@
+$tablet-width: 768px;
+$desktop-small-width: 1024px;
+$desktop-width: 1280px;
+
+$color-primary: #282828;
+$color-primary-active: #000;
+$color-secondary: #585757;
+$color-tertiary: #a3a6af;
+$color-border: #e6e7ef;
+$color-bg-primary: #fff;
+$color-bg-secondary: #f7f8f7;
+$color-bg-transparent: rgba(255, 255, 255, 0.6);
+$color-bg-accent: #d8e7e3;
+$color-accent: #289e72;
+$color-accent-light: #abd2c4;
+$color-accent-active: #277055;
+$color-error: #f56c62;
+$color-overlay: rgba(0, 0, 0, 0.5);
+
+$shadow-main: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+$shadow-floating: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+$transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);

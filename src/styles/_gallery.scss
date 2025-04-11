@@ -1,0 +1,278 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+.gallery {
+  position: relative;
+  @include mobile {
+    padding-top: 16px;
+  }
+  @include not-mobile {
+    padding-top: 32px;
+  }
+  &-content {
+    @include flex-column(32px);
+  }
+}
+
+.gallery-heading {
+  @include flex-wrap(8px);
+  align-items: flex-start;
+  justify-content: flex-end;
+  &-content {
+    @include flex-column(8px);
+    margin-right: auto;
+  }
+  &-title {
+    @include text-large;
+  }
+  &-subtitle {
+    color: $color-secondary;
+    & > strong {
+      font-weight: 600;
+      color: $color-primary;
+    }
+  }
+}
+
+.orderBtn {
+  @include transition(border-color);
+  position: relative;
+  width: 48px;
+  height: 48px;
+  background-color: $color-bg-primary;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  box-shadow: $shadow-main;
+  color: $color-primary;
+  &:hover {
+    border-color: $color-tertiary;
+  }
+
+  & > svg {
+    @include transition(transform);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  &[data-order="asc"] > svg {
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+}
+
+.filtersBtn {
+  @extend .orderBtn;
+  @include desktop {
+    display: none;
+  }
+}
+
+.listings {
+  @include flex-column(24px);
+}
+
+.listings-item {
+  @include fadeIn;
+  min-height: 300px;
+  display: grid;
+  border-radius: 16px;
+  background-color: $color-bg-primary;
+  overflow: hidden;
+  position: relative;
+  @include mobile {
+    grid-auto-columns: auto;
+  }
+  @include not-mobile {
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: auto 1fr auto;
+  }
+  & > img {
+    @include mobile {
+      height: 300px;
+      width: 100%;
+    }
+    @include not-mobile {
+      grid-row: 1 / 4;
+      height: 100%;
+    }
+  }
+  &-header {
+    padding: 12px 72px 12px 16px;
+    @include flex-column(8px);
+    @include mobile {
+      grid-row: 2 / 3;
+    }
+    @include not-mobile {
+      grid-column: 2 / 3;
+    }
+    & > .property-location > span {
+      @include text-ellipsis(1);
+    }
+  }
+  &-title {
+    @include text-heading;
+    @include text-ellipsis(1);
+  }
+  &-features {
+    padding: 12px 16px;
+    @include flex-column(12px);
+    @include mobile {
+      grid-row: 3 / 4;
+    }
+    @include not-mobile {
+      grid-column: 2 / 3;
+    }
+  }
+  &-footer {
+    padding: 12px 16px;
+    @include mobile {
+    }
+    @include not-mobile {
+      grid-column: 2 / 3;
+    }
+    & > a {
+      @include float(right);
+    }
+    & > strong {
+      display: block;
+      margin-bottom: 8px;
+    }
+  }
+  &-meta {
+    @include flex-wrap((8px 16px));
+
+    & > span {
+      @include chips($color-secondary);
+    }
+  }
+}
+
+.pagination {
+  @include flex(0);
+  justify-content: space-between;
+  &-pages {
+    padding: 8px;
+    @include flex-wrap(4px);
+    justify-content: center;
+    background-color: $color-bg-primary;
+    border-radius: 28px;
+    box-shadow: $shadow-main;
+    &-item {
+      @include flex-center;
+      @include transition(background-color);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      color: $color-primary;
+      &:disabled {
+        background-color: $color-primary;
+        color: $color-bg-primary;
+      }
+      &:hover {
+        background-color: $color-bg-secondary;
+      }
+    }
+  }
+  &-control {
+    @include flex(8px);
+    @include transition(color);
+    padding: 8px 16px;
+    align-items: center;
+    color: $color-secondary;
+    & > svg {
+      @include transition(transform);
+      will-change: transform;
+    }
+    &:hover {
+      color: $color-primary;
+      & > svg {
+        transform: scale(1.2);
+      }
+    }
+    &:disabled {
+      color: $color-tertiary;
+    }
+    & > span {
+      @include mobile {
+        display: none;
+      }
+    }
+  }
+}
+
+.filters {
+  padding: 32px 16px;
+  background-color: $color-bg-primary;
+  z-index: 12;
+  @include mobile {
+    @include transition-menu;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 480px;
+    overflow-y: auto;
+    &[data-open="false"] {
+      transform: translateX(120%);
+    }
+  }
+  @include tablet {
+    @include transition-menu;
+    position: absolute;
+    z-index: 12;
+    right: 32px;
+    width: 360px;
+    box-shadow: $shadow-floating;
+    border-radius: 16px;
+    &[data-open="false"] {
+      transform: translateX(120%);
+    }
+  }
+  @include desktop {
+    float: left;
+    margin-right: 24px;
+    width: 28%;
+    border-radius: 16px;
+    & > .closeBtn {
+      display: none;
+    }
+  }
+  &-form {
+    @include flex-column(32px);
+    min-height: 100%;
+    &-fieldset {
+      @include flex-column(8px);
+      position: relative;
+      & > .unit {
+        position: absolute;
+        top: -32px;
+        right: 0;
+      }
+    }
+    &-legend {
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+    &-range-inputs {
+      @include flex(8px);
+      margin-bottom: 8px;
+      & > label {
+        @include flex-column(4px);
+        width: 100%;
+        font-size: 14px;
+        color: $color-secondary;
+      }
+    }
+    &-buttons {
+      @include flex((8px 16px));
+      margin-top: auto;
+      & > button:last-child {
+        flex: 1;
+      }
+    }
+  }
+}

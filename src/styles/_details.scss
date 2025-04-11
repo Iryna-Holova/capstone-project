@@ -1,0 +1,150 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+.details {
+  position: relative;
+  @include mobile {
+    padding-top: 16px;
+  }
+  @include not-mobile {
+    padding-top: 32px;
+  }
+
+  &-path {
+    @include flex(8px);
+    align-items: center;
+    margin-bottom: 32px;
+    position: relative;
+    font-weight: 600;
+    text-transform: uppercase;
+    & > a {
+      @include transition(color);
+      color: $color-tertiary;
+      text-wrap: nowrap;
+      &::before {
+        @include transition(color);
+        content: "←";
+        position: absolute;
+        bottom: 80%;
+        font-size: 48px;
+        color: $color-secondary;
+      }
+      &:hover {
+        color: $color-secondary;
+        &::before {
+          color: $color-primary;
+        }
+      }
+    }
+    & > span {
+      @include text-ellipsis;
+    }
+  }
+
+  & > .images {
+    margin-bottom: 32px;
+    @include tablet {
+      @include float(left);
+      width: calc(50% - 24px);
+      margin: 0 24px 16px 0;
+    }
+    @include desktop {
+      @include float(left);
+      width: calc(50% - 32px);
+      margin: 0 32px 24px 0;
+    }
+  }
+
+  &-top {
+    @include flex-column(16px);
+    margin-bottom: 24px;
+    position: relative;
+    & > .property-title {
+      padding-right: 48px;
+    }
+    &-info {
+      @include flex-wrap(16px);
+      & > ul {
+        flex: 1;
+        max-width: 240px;
+      }
+    }
+    &-price {
+      @include flex-wrap(16px);
+      justify-content: space-between;
+      align-items: center;
+    }
+    & > .property-like-btn {
+      top: 0;
+      right: 0;
+    }
+  }
+
+  &-description {
+    @include flex-column(8px);
+    margin-bottom: 24px;
+    & > h3 {
+      @include text-small;
+      color: $color-tertiary;
+    }
+    & > p {
+      @include text-body;
+    }
+  }
+
+  &-contacts {
+    clear: both;
+    & > #map {
+      width: 100%;
+      border-radius: 16px;
+      aspect-ratio: 16/9;
+    }
+    @include mobile {
+      @include flex-column(24px);
+    }
+    @include tablet {
+      @include flex(32px);
+      flex-flow: row-reverse;
+    }
+    @include desktop {
+      @include flex(32px);
+      flex-flow: row-reverse;
+    }
+    &-info {
+      @include flex-column(16px);
+      flex-shrink: 0;
+      flex-grow: 1;
+      @include tablet {
+        width: calc(50% - 24px);
+      }
+      @include desktop {
+        width: calc(50% - 32px);
+      }
+    }
+    &-meta {
+      @include flex-wrap((8px 16px));
+      justify-content: flex-end;
+      color: $color-secondary;
+      & > span {
+        @include chips($color-primary);
+        &:last-child {
+          margin-left: auto;
+        }
+      }
+    }
+    &-form {
+      position: relative;
+      & > textarea {
+        padding-bottom: 32px;
+        &:placeholder-shown ~ button {
+          opacity: 0.5;
+        }
+      }
+      & > button {
+        position: absolute;
+        bottom: 8px;
+        right: 8px;
+      }
+    }
+  }
+}

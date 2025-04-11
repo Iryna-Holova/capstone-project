@@ -1,0 +1,227 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+.header {
+  padding: 16px 0;
+  background-color: $color-bg-primary;
+  box-shadow: $shadow-main;
+  & > .container {
+    @include flex(16px);
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    & > .btn-large {
+      @include mobile {
+        order: -1;
+      }
+    }
+    & > .select-wrapper {
+      > select {
+        font-weight: 600;
+        @include mobile {
+          padding-right: 8px;
+        }
+        @include not-mobile {
+          padding-right: 16px;
+        }
+      }
+    }
+  }
+}
+
+.nav {
+  @include flex(0);
+  flex-grow: 1;
+
+  &-list {
+    background-color: $color-bg-secondary;
+    & > li {
+      position: relative;
+    }
+    @include mobile {
+      @include flex-column(0);
+      @include transition-menu(transform);
+      position: fixed;
+      right: 0;
+      top: 0;
+      max-width: 100%;
+      width: 320px;
+      height: 100%;
+      justify-content: flex-start;
+      transform: translateX(120%);
+      overflow-y: auto;
+      &.is-open {
+        z-index: 11;
+        transform: translateX(0);
+      }
+      & > li:first-child::before {
+        content: "";
+        display: block;
+        height: calc((100vh - 220px) / 2);
+      }
+    }
+    @include not-mobile {
+      @include flex(0);
+      border-radius: 28px;
+      margin: 0 auto;
+      padding: 4px;
+    }
+  }
+  &-link {
+    @include transition((color, background-color, box-shadow));
+    @include flex(4px);
+    position: relative;
+    align-items: center;
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration: none;
+    color: $color-secondary;
+
+    @include mobile {
+      width: 100%;
+      justify-content: space-between;
+      padding: 12px 64px 12px 48px;
+    }
+    @include not-mobile {
+      padding: 12px 24px;
+      border-radius: 24px;
+      & > svg {
+        position: relative;
+        left: 8px;
+        width: 12px;
+        height: 12px;
+      }
+    }
+    & > svg {
+      @include transition-menu(transform);
+      will-change: transform;
+    }
+    &.is-open {
+      z-index: 6;
+      & > svg {
+        transform: rotate(90deg);
+      }
+      & ~ .nav-sub-list {
+        @include mobile {
+          height: 76px;
+        }
+        @include not-mobile {
+          transform: scaleY(1);
+          opacity: 1;
+        }
+      }
+    }
+    &.current {
+      background-color: $color-bg-primary;
+      color: $color-primary;
+      @include not-mobile {
+        box-shadow: $shadow-main;
+        &.is-open {
+          box-shadow: none;
+        }
+      }
+      & ~ .nav-sub-list {
+        background-color: $color-bg-primary;
+      }
+    }
+    &:hover {
+      color: $color-primary;
+    }
+  }
+  &-sub-list {
+    overflow: hidden;
+    @include mobile {
+      @include transition-menu((height, background-color));
+      height: 0;
+    }
+
+    @include not-mobile {
+      @include transition-menu((transform, opacity, background-color));
+      min-width: 100%;
+      transform: scaleY(0);
+      transform-origin: top;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      padding-top: 48px;
+      padding-bottom: 8px;
+      background-color: $color-bg-secondary;
+      border-radius: 24px;
+      box-shadow: $shadow-main;
+    }
+  }
+  &-sub-link {
+    @include flex(8px);
+    font-size: 14px;
+    line-height: 1;
+    &:before {
+      @include transition(color);
+      content: "➤";
+      color: transparent;
+    }
+    &:hover:before {
+      color: $color-tertiary;
+    }
+    &.current:before {
+      color: $color-secondary;
+    }
+    @include mobile {
+      padding: 12px 64px 12px 48px;
+      width: 100%;
+    }
+    @include not-mobile {
+      padding: 12px 24px 12px 4px;
+    }
+  }
+}
+
+.burger {
+  @include mobile {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    & > span {
+      @include transition((transform, top, width, left, opacity));
+      display: block;
+      position: absolute;
+      height: 6px;
+      width: 100%;
+      background: $color-primary;
+      border-radius: 4px;
+      left: 0;
+      &:nth-child(1) {
+        top: 4px;
+      }
+      &:nth-child(2),
+      &:nth-child(3) {
+        top: 21px;
+      }
+      &:nth-child(4) {
+        top: 38px;
+      }
+    }
+    &.is-open {
+      z-index: 12;
+      & > span {
+        &:nth-child(1),
+        &:nth-child(4) {
+          top: 21px;
+          width: 0%;
+          left: 50%;
+          opacity: 0;
+        }
+        &:nth-child(2) {
+          @include transform-rotate(45deg);
+        }
+        &:nth-child(3) {
+          @include transform-rotate(-45deg);
+        }
+      }
+    }
+  }
+  @include not-mobile {
+    display: none;
+  }
+}

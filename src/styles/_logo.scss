@@ -1,0 +1,35 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+.logo {
+  @include flex(4);
+  @include text-medium;
+  @include transition(color);
+  align-items: center;
+  text-transform: lowercase;
+  color: $color-accent;
+  &-header {
+    &:hover {
+      color: $color-accent-active;
+    }
+    @include mobile {
+      margin: 0 auto;
+      & > span {
+        display: none;
+      }
+    }
+    @include desktop {
+      font-size: 24px;
+      letter-spacing: -0.04em;
+    }
+  }
+  &-footer {
+    @include text-large;
+    &:hover {
+      color: $color-accent-light;
+    }
+    @include mobile {
+      font-size: 24px;
+    }
+  }
+}

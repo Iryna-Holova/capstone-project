@@ -1,0 +1,94 @@
+<div class="container details">
+  <p class="details-path">
+    <a data-spa-link data-spa-back id="back" href="#"></a><span></span>
+  </p>
+  <div id="image-gallery" data-open="false" class="images">
+    <ul class="images-list"></ul>
+    <button
+      data-action="openModal"
+      type="button"
+      class="images-modalBtn"
+      aria-label="Open image gallery"
+    ></button>
+    <button
+      class="closeBtn light"
+      data-action="closeModal"
+      aria-label="Close image gallery"
+    >
+      <span class="leftright"></span>
+      <span class="rightleft"></span>
+    </button>
+    <button
+      data-action="switchImage"
+      data-direction="-1"
+      type="button"
+      class="images-control left"
+      aria-label="Previous image"
+    >
+      <svg width="48" height="48">
+        <use href="../assets/sprite.svg#icon-chevron-left" />
+      </svg>
+    </button>
+    <button
+      data-action="switchImage"
+      data-direction="+1"
+      type="button"
+      class="images-control right"
+      aria-label="Next image"
+    >
+      <svg width="48" height="48">
+        <use href="../assets/sprite.svg#icon-chevron-right" />
+      </svg>
+    </button>
+    <span id="counter" class="images-counter"></span>
+  </div>
+  <section class="details-top">
+    <h2 id="title" class="property-title"></h2>
+    <a id="location" href="#" class="property-location"></a>
+    <ul id="details" class="property-chips"></ul>
+    <ul id="labels" class="property-labels"></ul>
+    <div class="details-top-info">
+      <ul id="size" class="property-info"></ul>
+      <ul id="buildingDetails" class="property-info"></ul>
+    </div>
+    <div class="details-top-price">
+      <div id="price"></div>
+      <a id="contactBtn" href="#" class="btn-medium primary">Contact</a>
+    </div>
+    <button
+      type="button"
+      class="property-like-btn"
+      aria-label="Add to favorites"
+    >
+      <svg width="24" height="24">
+        <use href="../assets/sprite.svg#icon-heart" />
+      </svg>
+    </button>
+  </section>
+  <section class="details-description">
+    <h3>Description</h3>
+    <p id="description"></p>
+  </section>
+  <section class="details-contacts">
+    <div id="map"></div>
+    <div class="details-contacts-info">
+      <p id="meta" class="details-contacts-meta"></p>
+      <p id="days-ago" class="details-contacts-meta"></p>
+      <div class="details-contacts-form">
+        <textarea
+          id="notes"
+          class="input"
+          placeholder="Ask your question"
+          rows="5"
+        ></textarea>
+        <button type="button" class="btn-small primary icon">
+          <span>Send</span>
+          <svg width="24" height="24">
+            <use href="../assets/sprite.svg#icon-telegram" />
+          </svg>
+        </button>
+      </div>
+      <div id="contact" class="property-contact"></div>
+    </div>
+  </section>
+</div>
