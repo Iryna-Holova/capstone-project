@@ -157,10 +157,13 @@ Any changes made to `db.json` will be retained across restarts.
 
 ## 📜 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT LICENSE](./LICENSE.md).
 
 ---
 
 ## 🙌 Acknowledgements
 
 Inspired by modern real estate platforms and built with a focus on user experience and performance. All data is fake, images are AI-generated
+
+<p align="center"><img src="./assets/pagespeed-desktop.jpg" alt="Pagespeed desktop results"></p>
+<p align="center"><img src="./assets/pagespeed-mobile.jpg" alt="Pagespeed mobile results"></p>

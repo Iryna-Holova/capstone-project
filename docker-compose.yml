@@ -11,3 +11,6 @@ services:
     volumes:
       - ./db.json:/app/db.json
     restart: unless-stopped
+
+volumes:
+  db-data:
