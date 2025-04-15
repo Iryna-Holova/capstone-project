@@ -1,4 +1,4 @@
-import { isMobile } from "../utils/isMobile";
+import { isMobile } from "../utils/getDevice";
 
 export const activateFiltersBtn = () => {
   const filtersBtn = document.querySelector("#filters") as HTMLButtonElement;

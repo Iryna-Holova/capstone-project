@@ -184,6 +184,12 @@
           animation: clipPath 1.5s ease-in-out forwards;
         }
       }
+      &.is-start {
+        & > h2 {
+          bottom: 20%;
+          opacity: 1;
+        }
+      }
     }
 
     &-slide {
@@ -197,101 +203,101 @@
 
       &-1 {
         @include mobile {
-          background-image: url("../assets/images/slider-mobile-1.webp");
+          background-image: url("/static/images/slider-mobile-1.webp");
           @include retina {
-            background-image: url("../assets/images/slider-mobile-1@2x.webp");
+            background-image: url("/static/images/slider-mobile-1@2x.webp");
           }
         }
         @include tablet {
-          background-image: url("../assets/images/slider-tablet-1.webp");
+          background-image: url("/static/images/slider-tablet-1.webp");
           @include retina {
-            background-image: url("../assets/images/slider-tablet-1@2x.webp");
+            background-image: url("/static/images/slider-tablet-1@2x.webp");
           }
         }
         @include desktop {
-          background-image: url("../assets/images/slider-desktop-1.webp");
+          background-image: url("/static/images/slider-desktop-1.webp");
           @include retina {
-            background-image: url("../assets/images/slider-desktop-1@2x.webp");
+            background-image: url("/static/images/slider-desktop-1@2x.webp");
           }
         }
       }
       &-2 {
         @include mobile {
-          background-image: url("../assets/images/slider-mobile-2.webp");
+          background-image: url("/static/images/slider-mobile-2.webp");
           @include retina {
-            background-image: url("../assets/images/slider-mobile-2@2x.webp");
+            background-image: url("/static/images/slider-mobile-2@2x.webp");
           }
         }
         @include tablet {
-          background-image: url("../assets/images/slider-tablet-2.webp");
+          background-image: url("/static/images/slider-tablet-2.webp");
           @include retina {
-            background-image: url("../assets/images/slider-tablet-2@2x.webp");
+            background-image: url("/static/images/slider-tablet-2@2x.webp");
           }
         }
         @include desktop {
-          background-image: url("../assets/images/slider-desktop-2.webp");
+          background-image: url("/static/images/slider-desktop-2.webp");
           @include retina {
-            background-image: url("../assets/images/slider-desktop-2@2x.webp");
+            background-image: url("/static/images/slider-desktop-2@2x.webp");
           }
         }
       }
       &-3 {
         @include mobile {
-          background-image: url("../assets/images/slider-mobile-3.webp");
+          background-image: url("/static/images/slider-mobile-3.webp");
           @include retina {
-            background-image: url("../assets/images/slider-mobile-3@2x.webp");
+            background-image: url("/static/images/slider-mobile-3@2x.webp");
           }
         }
         @include tablet {
-          background-image: url("../assets/images/slider-tablet-3.webp");
+          background-image: url("/static/images/slider-tablet-3.webp");
           @include retina {
-            background-image: url("../assets/images/slider-tablet-3@2x.webp");
+            background-image: url("/static/images/slider-tablet-3@2x.webp");
           }
         }
         @include desktop {
-          background-image: url("../assets/images/slider-desktop-3.webp");
+          background-image: url("/static/images/slider-desktop-3.webp");
           @include retina {
-            background-image: url("../assets/images/slider-desktop-3@2x.webp");
+            background-image: url("/static/images/slider-desktop-3@2x.webp");
           }
         }
       }
       &-4 {
         @include mobile {
-          background-image: url("../assets/images/slider-mobile-4.webp");
+          background-image: url("/static/images/slider-mobile-4.webp");
           @include retina {
-            background-image: url("../assets/images/slider-mobile-4@2x.webp");
+            background-image: url("/static/images/slider-mobile-4@2x.webp");
           }
         }
         @include tablet {
-          background-image: url("../assets/images/slider-tablet-4.webp");
+          background-image: url("/static/images/slider-tablet-4.webp");
           @include retina {
-            background-image: url("../assets/images/slider-tablet-4@2x.webp");
+            background-image: url("/static/images/slider-tablet-4@2x.webp");
           }
         }
         @include desktop {
-          background-image: url("../assets/images/slider-desktop-4.webp");
+          background-image: url("/static/images/slider-desktop-4.webp");
           @include retina {
-            background-image: url("../assets/images/slider-desktop-4@2x.webp");
+            background-image: url("/static/images/slider-desktop-4@2x.webp");
           }
         }
       }
       &-5 {
         @include mobile {
-          background-image: url("../assets/images/slider-mobile-5.webp");
+          background-image: url("/static/images/slider-mobile-5.webp");
           @include retina {
-            background-image: url("../assets/images/slider-mobile-5@2x.webp");
+            background-image: url("/static/images/slider-mobile-5@2x.webp");
           }
         }
         @include tablet {
-          background-image: url("../assets/images/slider-tablet-5.webp");
+          background-image: url("/static/images/slider-tablet-5.webp");
           @include retina {
-            background-image: url("../assets/images/slider-tablet-5@2x.webp");
+            background-image: url("/static/images/slider-tablet-5@2x.webp");
           }
         }
         @include desktop {
-          background-image: url("../assets/images/slider-desktop-5.webp");
+          background-image: url("/static/images/slider-desktop-5.webp");
           @include retina {
-            background-image: url("../assets/images/slider-desktop-5@2x.webp");
+            background-image: url("/static/images/slider-desktop-5@2x.webp");
           }
         }
       }

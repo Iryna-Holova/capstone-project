@@ -8,7 +8,7 @@ export const getAllProperties = async (
   filters: Record<string, (number | null)[] | string> = {}
 ): Promise<ListingObject[]> => {
   const filtersString = convertFiltersToString(filters);
-  const res = await fetch(`http://${API_BASE}/listings?${filtersString}`);
+  const res = await fetch(`${API_BASE}/listings?${filtersString}`);
   if (!res.ok) throw new Error("Error fetching properties");
   const data = await res.json();
   return data;
@@ -38,7 +38,7 @@ export const getProperties = async (
   const filtersString = convertFiltersToString(filters);
 
   const response = await fetch(
-    `http://${API_BASE}/listings?_page=${page}&_per_page=${perPage}&_sort=${
+    `${API_BASE}/listings?_page=${page}&_per_page=${perPage}&_sort=${
       order === "desc" ? "-" : ""
     }${sortBy}${filtersString}`
   );
@@ -49,7 +49,7 @@ export const getProperties = async (
 };
 
 export const getPropertyById = async (id: string): Promise<ListingObject> => {
-  const response = await fetch(`http://${API_BASE}/listings/${id}`);
+  const response = await fetch(`${API_BASE}/listings/${id}`);
   if (!response.ok) throw new Error("Error fetching property");
   const data = await response.json();
   return data;
@@ -58,7 +58,7 @@ export const getPropertyById = async (id: string): Promise<ListingObject> => {
 export const updateCurrencyRatesIfNeeded = async (
   converter: CurrencyConverter
 ) => {
-  const metaRes = await fetch(`http://${API_BASE}/meta`);
+  const metaRes = await fetch(`${API_BASE}/meta`);
   if (!metaRes.ok) return;
   const meta = await metaRes.json();
 
@@ -74,7 +74,7 @@ export const updateCurrencyRatesIfNeeded = async (
     return;
   }
 
-  const listingsRes = await fetch(`http://${API_BASE}/listings`);
+  const listingsRes = await fetch(`${API_BASE}/listings`);
   if (!listingsRes.ok) return;
 
   const listingsData: ListingObject[] = await listingsRes.json();
@@ -84,7 +84,7 @@ export const updateCurrencyRatesIfNeeded = async (
       const normalizedPrice = Math.round(
         converter.convertToUSD(price.currency, price.amount)
       );
-      return fetch(`http://${API_BASE}/listings/${id}`, {
+      return fetch(`${API_BASE}/listings/${id}`, {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -94,7 +94,7 @@ export const updateCurrencyRatesIfNeeded = async (
     })
   );
 
-  await fetch(`http://${API_BASE}/meta`, {
+  await fetch(`${API_BASE}/meta`, {
     method: "PUT",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ lastUpdated: today }),

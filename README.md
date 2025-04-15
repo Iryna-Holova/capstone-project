@@ -40,10 +40,11 @@ npm install
 ### 🏃 Running Locally
 
 ```sh
+npm run build
 npm start
 ```
 
-This will run both:
+This will build and run both:
 
 - **Frontend**: Available at `http://localhost:1234`
 - **Backend (json-server)**: API available at `http://localhost:3001`
@@ -105,10 +106,12 @@ Any changes made to `db.json` will be retained across restarts.
 ```
  capstone-project/
  ├── src/                # Source code (HTML, CSS, TS)
+ ├── static/             # Static files
  ├── db.json             # Mock database (persistent)
  ├── Dockerfile          # Docker configuration
  ├── docker-compose.yml  # Docker Compose config
  ├── package.json        # Project dependencies & scripts
+ ├── server.js           # Frontend start point
  ├── README.md           # Project documentation
  └── ...                 # Other config files
 ```
@@ -117,10 +120,10 @@ Any changes made to `db.json` will be retained across restarts.
 
 ## 🛠️ Available Scripts
 
-- `npm run dev`: Starts the development server with hot reloading.
-- `npm run build`: Builds the application for production.
 - `npm run lint`: Runs ESLint and Stylelint for code quality checks.
+- `npm run build`: Builds the application for production.
 - `npm run start`: Builds and starts the application.
+- `npm run dev`: Starts the development server with hot reloading.
 
 ---
 

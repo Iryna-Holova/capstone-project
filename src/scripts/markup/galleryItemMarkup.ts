@@ -1,12 +1,13 @@
 import { PropertyListing } from "../models/PropertyListing";
 import { chipsMarkup } from "./chipsMarkup";
-import spriteUrl from "../../assets/sprite.svg";
 import { labelsMarkup } from "./labelsMarkup";
 import { locationMarkup } from "./locationMarkup";
 import { metaInfoMarkup } from "./metaInfoMarkup";
 import { priceMarkup } from "./priceMarkup";
 
 export const galleryItemMarkup = (property: PropertyListing) => {
+  const spriteUrl = "/static/sprite.svg";
+
   return `
     <li>
       <article class="listings-item">

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2025-04-11T10:31:59.703Z"
+    "lastUpdated": "2025-04-15T06:27:43.920Z"
   },
   "listings": [
     {
@@ -60,11 +60,26 @@
       "views": 982,
       "favorites": 64,
       "status": "Active",
-      "normalizedPrice": [2482, 2482],
-      "area": [90, 90],
-      "lat": [525200, 525200],
-      "lng": [134050, 134050],
-      "imagesPublicID": ["properties-init/1_1", "properties-init/1_2"]
+      "normalizedPrice": [
+        2505,
+        2505
+      ],
+      "area": [
+        90,
+        90
+      ],
+      "lat": [
+        525200,
+        525200
+      ],
+      "lng": [
+        134050,
+        134050
+      ],
+      "imagesPublicID": [
+        "properties-init/1_1",
+        "properties-init/1_2"
+      ]
     },
     {
       "id": "2",
@@ -125,10 +140,22 @@
       "views": 453,
       "favorites": 21,
       "status": "Active",
-      "normalizedPrice": [817814, 817814],
-      "area": [180, 180],
-      "lat": [522914, 522914],
-      "lng": [48572, 48572],
+      "normalizedPrice": [
+        825598,
+        825598
+      ],
+      "area": [
+        180,
+        180
+      ],
+      "lat": [
+        522914,
+        522914
+      ],
+      "lng": [
+        48572,
+        48572
+      ],
       "imagesPublicID": [
         "properties-init/2_1",
         "properties-init/2_2",
@@ -193,11 +220,26 @@
       "views": 765,
       "favorites": 89,
       "status": "Active",
-      "normalizedPrice": [3610, 3610],
-      "area": [120, 120],
-      "lat": [525125, 525125],
-      "lng": [133897, 133897],
-      "imagesPublicID": ["properties-init/3_1", "properties-init/3_2"]
+      "normalizedPrice": [
+        3644,
+        3644
+      ],
+      "area": [
+        120,
+        120
+      ],
+      "lat": [
+        525125,
+        525125
+      ],
+      "lng": [
+        133897,
+        133897
+      ],
+      "imagesPublicID": [
+        "properties-init/3_1",
+        "properties-init/3_2"
+      ]
     },
     {
       "id": "4",
@@ -257,10 +299,22 @@
       "views": 1240,
       "favorites": 250,
       "status": "Active",
-      "normalizedPrice": [3158455, 3158455],
-      "area": [450, 450],
-      "lat": [437034, 437034],
-      "lng": [72663, 72663],
+      "normalizedPrice": [
+        3188518,
+        3188518
+      ],
+      "area": [
+        450,
+        450
+      ],
+      "lat": [
+        437034,
+        437034
+      ],
+      "lng": [
+        72663,
+        72663
+      ],
       "imagesPublicID": [
         "properties-init/4_1",
         "properties-init/4_2",
@@ -324,11 +378,26 @@
       "views": 540,
       "favorites": 60,
       "status": "Active",
-      "normalizedPrice": [1354, 1354],
-      "area": [45, 45],
-      "lat": [413851, 413851],
-      "lng": [21734, 21734],
-      "imagesPublicID": ["properties-init/5_1", "properties-init/5_2"]
+      "normalizedPrice": [
+        1367,
+        1367
+      ],
+      "area": [
+        45,
+        45
+      ],
+      "lat": [
+        413851,
+        413851
+      ],
+      "lng": [
+        21734,
+        21734
+      ],
+      "imagesPublicID": [
+        "properties-init/5_1",
+        "properties-init/5_2"
+      ]
     },
     {
       "id": "6",
@@ -388,10 +457,22 @@
       "views": 870,
       "favorites": 120,
       "status": "Active",
-      "normalizedPrice": [846015, 846015],
-      "area": [230, 230],
-      "lat": [437696, 437696],
-      "lng": [112558, 112558],
+      "normalizedPrice": [
+        854067,
+        854067
+      ],
+      "area": [
+        230,
+        230
+      ],
+      "lat": [
+        437696,
+        437696
+      ],
+      "lng": [
+        112558,
+        112558
+      ],
       "imagesPublicID": [
         "properties-init/6_1",
         "properties-init/6_2",
@@ -455,11 +536,26 @@
       "views": 1120,
       "favorites": 205,
       "status": "Active",
-      "normalizedPrice": [3199, 3199],
-      "area": [110, 110],
-      "lat": [482082, 482082],
-      "lng": [163738, 163738],
-      "imagesPublicID": ["properties-init/7_1", "properties-init/7_2"]
+      "normalizedPrice": [
+        3302,
+        3302
+      ],
+      "area": [
+        110,
+        110
+      ],
+      "lat": [
+        482082,
+        482082
+      ],
+      "lng": [
+        163738,
+        163738
+      ],
+      "imagesPublicID": [
+        "properties-init/7_1",
+        "properties-init/7_2"
+      ]
     },
     {
       "id": "8",
@@ -519,10 +615,22 @@
       "views": 620,
       "favorites": 80,
       "status": "Active",
-      "normalizedPrice": [1081135, 1081135],
-      "area": [180, 180],
-      "lat": [50.0878, 50.0878],
-      "lng": [14.4205, 14.4205],
+      "normalizedPrice": [
+        1115981,
+        1115981
+      ],
+      "area": [
+        180,
+        180
+      ],
+      "lat": [
+        50.0878,
+        50.0878
+      ],
+      "lng": [
+        14.4205,
+        14.4205
+      ],
       "imagesPublicID": [
         "properties-init/8_1",
         "properties-init/8_2",
@@ -586,11 +694,26 @@
       "views": 950,
       "favorites": 180,
       "status": "Active",
-      "normalizedPrice": [5640, 5640],
-      "area": [160, 160],
-      "lat": [52.3676, 52.3676],
-      "lng": [4.9041, 4.9041],
-      "imagesPublicID": ["properties-init/9_1", "properties-init/9_2"]
+      "normalizedPrice": [
+        5694,
+        5694
+      ],
+      "area": [
+        160,
+        160
+      ],
+      "lat": [
+        52.3676,
+        52.3676
+      ],
+      "lng": [
+        4.9041,
+        4.9041
+      ],
+      "imagesPublicID": [
+        "properties-init/9_1",
+        "properties-init/9_2"
+      ]
     },
     {
       "id": "10",
@@ -649,11 +772,26 @@
       "views": 1350,
       "favorites": 210,
       "status": "Active",
-      "normalizedPrice": [2535398, 2535398],
-      "area": [250, 250],
-      "lat": [515014, 515014],
-      "lng": [-1932, -1932],
-      "imagesPublicID": ["properties-init/10_1", "properties-init/10_2"]
+      "normalizedPrice": [
+        2556606,
+        2556606
+      ],
+      "area": [
+        250,
+        250
+      ],
+      "lat": [
+        515014,
+        515014
+      ],
+      "lng": [
+        -1932,
+        -1932
+      ],
+      "imagesPublicID": [
+        "properties-init/10_1",
+        "properties-init/10_2"
+      ]
     },
     {
       "id": "11",
@@ -712,11 +850,26 @@
       "views": 970,
       "favorites": 130,
       "status": "Active",
-      "normalizedPrice": [958817, 958817],
-      "area": [180, 180],
-      "lat": [481351, 481351],
-      "lng": [115820, 115820],
-      "imagesPublicID": ["properties-init/11_1", "properties-init/11_2"]
+      "normalizedPrice": [
+        967943,
+        967943
+      ],
+      "area": [
+        180,
+        180
+      ],
+      "lat": [
+        481351,
+        481351
+      ],
+      "lng": [
+        115820,
+        115820
+      ],
+      "imagesPublicID": [
+        "properties-init/11_1",
+        "properties-init/11_2"
+      ]
     },
     {
       "id": "12",
@@ -775,11 +928,26 @@
       "views": 860,
       "favorites": 120,
       "status": "Active",
-      "normalizedPrice": [1986, 1986],
-      "area": [75, 75],
-      "lat": [522298, 522298],
-      "lng": [210122, 210122],
-      "imagesPublicID": ["properties-init/12_1", "properties-init/12_2"]
+      "normalizedPrice": [
+        2050,
+        2050
+      ],
+      "area": [
+        75,
+        75
+      ],
+      "lat": [
+        522298,
+        522298
+      ],
+      "lng": [
+        210122,
+        210122
+      ],
+      "imagesPublicID": [
+        "properties-init/12_1",
+        "properties-init/12_2"
+      ]
     },
     {
       "id": "13",
@@ -839,10 +1007,22 @@
       "views": 3200,
       "favorites": 540,
       "status": "Active",
-      "normalizedPrice": [5978504, 5978504],
-      "area": [600, 600],
-      "lat": [435513, 435513],
-      "lng": [70128, 70128],
+      "normalizedPrice": [
+        6035409,
+        6035409
+      ],
+      "area": [
+        600,
+        600
+      ],
+      "lat": [
+        435513,
+        435513
+      ],
+      "lng": [
+        70128,
+        70128
+      ],
       "imagesPublicID": [
         "properties-init/13_1",
         "properties-init/13_2",
@@ -909,10 +1089,22 @@
       "views": 1780,
       "favorites": 320,
       "status": "Active",
-      "normalizedPrice": [7332, 7332],
-      "area": [140, 140],
-      "lat": [454670, 454670],
-      "lng": [91954, 91954],
+      "normalizedPrice": [
+        7402,
+        7402
+      ],
+      "area": [
+        140,
+        140
+      ],
+      "lat": [
+        454670,
+        454670
+      ],
+      "lng": [
+        91954,
+        91954
+      ],
       "imagesPublicID": [
         "properties-init/14_1",
         "properties-init/14_2",
@@ -978,11 +1170,26 @@
       "views": 1540,
       "favorites": 260,
       "status": "Active",
-      "normalizedPrice": [981377, 981377],
-      "area": [250, 250],
-      "lat": [474910, 474910],
-      "lng": [110950, 110950],
-      "imagesPublicID": ["properties-init/15_1", "properties-init/15_2"]
+      "normalizedPrice": [
+        990718,
+        990718
+      ],
+      "area": [
+        250,
+        250
+      ],
+      "lat": [
+        474910,
+        474910
+      ],
+      "lng": [
+        110950,
+        110950
+      ],
+      "imagesPublicID": [
+        "properties-init/15_1",
+        "properties-init/15_2"
+      ]
     },
     {
       "id": "16",
@@ -1041,11 +1248,26 @@
       "views": 1960,
       "favorites": 340,
       "status": "Active",
-      "normalizedPrice": [3089, 3089],
-      "area": [85, 85],
-      "lat": [523676, 523676],
-      "lng": [49041, 49041],
-      "imagesPublicID": ["properties-init/16_1", "properties-init/16_2"]
+      "normalizedPrice": [
+        3189,
+        3189
+      ],
+      "area": [
+        85,
+        85
+      ],
+      "lat": [
+        523676,
+        523676
+      ],
+      "lng": [
+        49041,
+        49041
+      ],
+      "imagesPublicID": [
+        "properties-init/16_1",
+        "properties-init/16_2"
+      ]
     },
     {
       "id": "17",
@@ -1106,10 +1328,22 @@
       "views": 2850,
       "favorites": 570,
       "status": "Active",
-      "normalizedPrice": [4964397, 4964397],
-      "area": [550, 550],
-      "lat": [365074, 365074],
-      "lng": [-48858, -48858],
+      "normalizedPrice": [
+        5124404,
+        5124404
+      ],
+      "area": [
+        550,
+        550
+      ],
+      "lat": [
+        365074,
+        365074
+      ],
+      "lng": [
+        -48858,
+        -48858
+      ],
       "imagesPublicID": [
         "properties-init/17_1",
         "properties-init/17_2",
@@ -1174,11 +1408,26 @@
       "views": 3120,
       "favorites": 430,
       "status": "Active",
-      "normalizedPrice": [11815, 11815],
-      "area": [300, 300],
-      "lat": [515155, 515155],
-      "lng": [-823, -823],
-      "imagesPublicID": ["properties-init/18_1", "properties-init/18_2"]
+      "normalizedPrice": [
+        12062,
+        12062
+      ],
+      "area": [
+        300,
+        300
+      ],
+      "lat": [
+        515155,
+        515155
+      ],
+      "lng": [
+        -823,
+        -823
+      ],
+      "imagesPublicID": [
+        "properties-init/18_1",
+        "properties-init/18_2"
+      ]
     },
     {
       "id": "19",
@@ -1238,10 +1487,22 @@
       "views": 1970,
       "favorites": 325,
       "status": "Active",
-      "normalizedPrice": [958817, 958817],
-      "area": [250, 250],
-      "lat": [437696, 437696],
-      "lng": [112558, 112558],
+      "normalizedPrice": [
+        967943,
+        967943
+      ],
+      "area": [
+        250,
+        250
+      ],
+      "lat": [
+        437696,
+        437696
+      ],
+      "lng": [
+        112558,
+        112558
+      ],
       "imagesPublicID": [
         "properties-init/19_1",
         "properties-init/19_2",
@@ -1304,11 +1565,25 @@
       "views": 1340,
       "favorites": 280,
       "status": "Active",
-      "normalizedPrice": [2482, 2482],
-      "area": [80, 80],
-      "lat": [523676, 523676],
-      "lng": [49041, 49041],
-      "imagesPublicID": ["properties-init/20_1"]
+      "normalizedPrice": [
+        2505,
+        2505
+      ],
+      "area": [
+        80,
+        80
+      ],
+      "lat": [
+        523676,
+        523676
+      ],
+      "lng": [
+        49041,
+        49041
+      ],
+      "imagesPublicID": [
+        "properties-init/20_1"
+      ]
     },
     {
       "id": "21",
@@ -1368,10 +1643,22 @@
       "views": 2850,
       "favorites": 430,
       "status": "Active",
-      "normalizedPrice": [5736636, 5736636],
-      "area": [700, 700],
-      "lat": [365099, 365099],
-      "lng": [-48825, -48825],
+      "normalizedPrice": [
+        5921533,
+        5921533
+      ],
+      "area": [
+        700,
+        700
+      ],
+      "lat": [
+        365099,
+        365099
+      ],
+      "lng": [
+        -48825,
+        -48825
+      ],
       "imagesPublicID": [
         "properties-init/21_1",
         "properties-init/21_2",
@@ -1435,11 +1722,26 @@
       "views": 1120,
       "favorites": 180,
       "status": "Active",
-      "normalizedPrice": [1544, 1544],
-      "area": [38, 38],
-      "lat": [482082, 482082],
-      "lng": [163738, 163738],
-      "imagesPublicID": ["properties-init/22_1", "properties-init/22_2"]
+      "normalizedPrice": [
+        1594,
+        1594
+      ],
+      "area": [
+        38,
+        38
+      ],
+      "lat": [
+        482082,
+        482082
+      ],
+      "lng": [
+        163738,
+        163738
+      ],
+      "imagesPublicID": [
+        "properties-init/22_1",
+        "properties-init/22_2"
+      ]
     },
     {
       "id": "23",
@@ -1498,11 +1800,26 @@
       "views": 3200,
       "favorites": 580,
       "status": "Active",
-      "normalizedPrice": [5074717, 5074717],
-      "area": [250, 250],
-      "lat": [488665, 488665],
-      "lng": [23090, 23090],
-      "imagesPublicID": ["properties-init/23_1", "properties-init/23_2"]
+      "normalizedPrice": [
+        5238279,
+        5238279
+      ],
+      "area": [
+        250,
+        250
+      ],
+      "lat": [
+        488665,
+        488665
+      ],
+      "lng": [
+        23090,
+        23090
+      ],
+      "imagesPublicID": [
+        "properties-init/23_1",
+        "properties-init/23_2"
+      ]
     },
     {
       "id": "24",
@@ -1563,10 +1880,22 @@
       "views": 4120,
       "favorites": 690,
       "status": "Active",
-      "normalizedPrice": [12843, 12843],
-      "area": [300, 300],
-      "lat": [515145, 515145],
-      "lng": [-1442, -1442],
+      "normalizedPrice": [
+        13111,
+        13111
+      ],
+      "area": [
+        300,
+        300
+      ],
+      "lat": [
+        515145,
+        515145
+      ],
+      "lng": [
+        -1442,
+        -1442
+      ],
       "imagesPublicID": [
         "properties-init/24_1",
         "properties-init/24_2",
@@ -1632,10 +1961,22 @@
       "views": 1350,
       "favorites": 220,
       "status": "Active",
-      "normalizedPrice": [1071619, 1071619],
-      "area": [350, 350],
-      "lat": [437696, 437696],
-      "lng": [112558, 112558],
+      "normalizedPrice": [
+        1081819,
+        1081819
+      ],
+      "area": [
+        350,
+        350
+      ],
+      "lat": [
+        437696,
+        437696
+      ],
+      "lng": [
+        112558,
+        112558
+      ],
       "imagesPublicID": [
         "properties-init/25_1",
         "properties-init/25_2",
@@ -1700,10 +2041,22 @@
       "views": 984,
       "favorites": 245,
       "status": "Active",
-      "normalizedPrice": [5640, 5640],
-      "area": [250, 250],
-      "lat": [500755, 500755],
-      "lng": [144378, 144378],
+      "normalizedPrice": [
+        5694,
+        5694
+      ],
+      "area": [
+        250,
+        250
+      ],
+      "lat": [
+        500755,
+        500755
+      ],
+      "lng": [
+        144378,
+        144378
+      ],
       "imagesPublicID": [
         "properties-init/26_1",
         "properties-init/26_2",
@@ -1767,11 +2120,26 @@
       "views": 1980,
       "favorites": 360,
       "status": "Active",
-      "normalizedPrice": [4230073, 4230073],
-      "area": [500, 500],
-      "lat": [523676, 523676],
-      "lng": [49041, 49041],
-      "imagesPublicID": ["properties-init/27_1", "properties-init/27_2"]
+      "normalizedPrice": [
+        4270336,
+        4270336
+      ],
+      "area": [
+        500,
+        500
+      ],
+      "lat": [
+        523676,
+        523676
+      ],
+      "lng": [
+        49041,
+        49041
+      ],
+      "imagesPublicID": [
+        "properties-init/27_1",
+        "properties-init/27_2"
+      ]
     },
     {
       "id": "28",
@@ -1831,10 +2199,22 @@
       "views": 970,
       "favorites": 140,
       "status": "Active",
-      "normalizedPrice": [3500, 3500],
-      "area": [180, 180],
-      "lat": [504501, 504501],
-      "lng": [305234, 305234],
+      "normalizedPrice": [
+        3500,
+        3500
+      ],
+      "area": [
+        180,
+        180
+      ],
+      "lat": [
+        504501,
+        504501
+      ],
+      "lng": [
+        305234,
+        305234
+      ],
       "imagesPublicID": [
         "properties-init/28_1",
         "properties-init/28_2",
@@ -1898,11 +2278,26 @@
       "views": 1120,
       "favorites": 160,
       "status": "Active",
-      "normalizedPrice": [185000, 185000],
-      "area": [85, 85],
-      "lat": [498397, 498397],
-      "lng": [240297, 240297],
-      "imagesPublicID": ["properties-init/29_1", "properties-init/29_2"]
+      "normalizedPrice": [
+        185000,
+        185000
+      ],
+      "area": [
+        85,
+        85
+      ],
+      "lat": [
+        498397,
+        498397
+      ],
+      "lng": [
+        240297,
+        240297
+      ],
+      "imagesPublicID": [
+        "properties-init/29_1",
+        "properties-init/29_2"
+      ]
     },
     {
       "id": "30",
@@ -1961,11 +2356,26 @@
       "views": 850,
       "favorites": 120,
       "status": "Active",
-      "normalizedPrice": [600, 600],
-      "area": [40, 40],
-      "lat": [464856, 464856],
-      "lng": [307438, 307438],
-      "imagesPublicID": ["properties-init/30_1", "properties-init/30_2"]
+      "normalizedPrice": [
+        600,
+        600
+      ],
+      "area": [
+        40,
+        40
+      ],
+      "lat": [
+        464856,
+        464856
+      ],
+      "lng": [
+        307438,
+        307438
+      ],
+      "imagesPublicID": [
+        "properties-init/30_1",
+        "properties-init/30_2"
+      ]
     },
     {
       "id": "31",
@@ -2024,11 +2434,26 @@
       "views": 620,
       "favorites": 80,
       "status": "Active",
-      "normalizedPrice": [95000, 95000],
-      "area": [160, 160],
-      "lat": [499935, 499935],
-      "lng": [362304, 362304],
-      "imagesPublicID": ["properties-init/31_1", "properties-init/31_2"]
+      "normalizedPrice": [
+        95000,
+        95000
+      ],
+      "area": [
+        160,
+        160
+      ],
+      "lat": [
+        499935,
+        499935
+      ],
+      "lng": [
+        362304,
+        362304
+      ],
+      "imagesPublicID": [
+        "properties-init/31_1",
+        "properties-init/31_2"
+      ]
     },
     {
       "id": "32",
@@ -2087,11 +2512,26 @@
       "views": 430,
       "favorites": 65,
       "status": "Active",
-      "normalizedPrice": [750, 750],
-      "area": [55, 55],
-      "lat": [484647, 484647],
-      "lng": [350462, 350462],
-      "imagesPublicID": ["properties-init/32_1", "properties-init/32_2"]
+      "normalizedPrice": [
+        750,
+        750
+      ],
+      "area": [
+        55,
+        55
+      ],
+      "lat": [
+        484647,
+        484647
+      ],
+      "lng": [
+        350462,
+        350462
+      ],
+      "imagesPublicID": [
+        "properties-init/32_1",
+        "properties-init/32_2"
+      ]
     },
     {
       "id": "33",
@@ -2150,11 +2590,26 @@
       "views": 1400,
       "favorites": 210,
       "status": "Active",
-      "normalizedPrice": [1200000, 1200000],
-      "area": [600, 600],
-      "lat": [498419, 498419],
-      "lng": [240315, 240315],
-      "imagesPublicID": ["properties-init/33_1", "properties-init/33_2"]
+      "normalizedPrice": [
+        1200000,
+        1200000
+      ],
+      "area": [
+        600,
+        600
+      ],
+      "lat": [
+        498419,
+        498419
+      ],
+      "lng": [
+        240315,
+        240315
+      ],
+      "imagesPublicID": [
+        "properties-init/33_1",
+        "properties-init/33_2"
+      ]
     },
     {
       "id": "34",
@@ -2214,10 +2669,22 @@
       "views": 780,
       "favorites": 90,
       "status": "Active",
-      "normalizedPrice": [2800, 2800],
-      "area": [90, 90],
-      "lat": [464825, 464825],
-      "lng": [307233, 307233],
+      "normalizedPrice": [
+        2800,
+        2800
+      ],
+      "area": [
+        90,
+        90
+      ],
+      "lat": [
+        464825,
+        464825
+      ],
+      "lng": [
+        307233,
+        307233
+      ],
       "imagesPublicID": [
         "properties-init/34_1",
         "properties-init/34_2",
@@ -2281,11 +2748,26 @@
       "views": 890,
       "favorites": 110,
       "status": "Active",
-      "normalizedPrice": [185000, 185000],
-      "area": [220, 220],
-      "lat": [504501, 504501],
-      "lng": [305234, 305234],
-      "imagesPublicID": ["properties-init/35_1", "properties-init/35_2"]
+      "normalizedPrice": [
+        185000,
+        185000
+      ],
+      "area": [
+        220,
+        220
+      ],
+      "lat": [
+        504501,
+        504501
+      ],
+      "lng": [
+        305234,
+        305234
+      ],
+      "imagesPublicID": [
+        "properties-init/35_1",
+        "properties-init/35_2"
+      ]
     },
     {
       "id": "36",
@@ -2344,11 +2826,26 @@
       "views": 670,
       "favorites": 75,
       "status": "Active",
-      "normalizedPrice": [1015, 1015],
-      "area": [40, 40],
-      "lat": [522298, 522298],
-      "lng": [210122, 210122],
-      "imagesPublicID": ["properties-init/36_1", "properties-init/36_2"]
+      "normalizedPrice": [
+        1025,
+        1025
+      ],
+      "area": [
+        40,
+        40
+      ],
+      "lat": [
+        522298,
+        522298
+      ],
+      "lng": [
+        210122,
+        210122
+      ],
+      "imagesPublicID": [
+        "properties-init/36_1",
+        "properties-init/36_2"
+      ]
     },
     {
       "id": "37",
@@ -2408,10 +2905,22 @@
       "views": 2000,
       "favorites": 350,
       "status": "Active",
-      "normalizedPrice": [3609663, 3609663],
-      "area": [750, 750],
-      "lat": [481863, 481863],
-      "lng": [163122, 163122],
+      "normalizedPrice": [
+        3644020,
+        3644020
+      ],
+      "area": [
+        750,
+        750
+      ],
+      "lat": [
+        481863,
+        481863
+      ],
+      "lng": [
+        163122,
+        163122
+      ],
       "imagesPublicID": [
         "properties-init/37_1",
         "properties-init/37_2",
@@ -2476,10 +2985,22 @@
       "views": 950,
       "favorites": 120,
       "status": "Active",
-      "normalizedPrice": [4512, 4512],
-      "area": [140, 140],
-      "lat": [500878, 500878],
-      "lng": [144205, 144205],
+      "normalizedPrice": [
+        4555,
+        4555
+      ],
+      "area": [
+        140,
+        140
+      ],
+      "lat": [
+        500878,
+        500878
+      ],
+      "lng": [
+        144205,
+        144205
+      ],
       "imagesPublicID": [
         "properties-init/38_1",
         "properties-init/38_2",
@@ -2543,11 +3064,26 @@
       "views": 870,
       "favorites": 140,
       "status": "Active",
-      "normalizedPrice": [220000, 220000],
-      "area": [110, 110],
-      "lat": [498397, 498397],
-      "lng": [240297, 240297],
-      "imagesPublicID": ["properties-init/39_1", "properties-init/39_2"]
+      "normalizedPrice": [
+        220000,
+        220000
+      ],
+      "area": [
+        110,
+        110
+      ],
+      "lat": [
+        498397,
+        498397
+      ],
+      "lng": [
+        240297,
+        240297
+      ],
+      "imagesPublicID": [
+        "properties-init/39_1",
+        "properties-init/39_2"
+      ]
     },
     {
       "id": "40",
@@ -2607,10 +3143,22 @@
       "views": 680,
       "favorites": 95,
       "status": "Active",
-      "normalizedPrice": [2820, 2820],
-      "area": [280, 280],
-      "lat": [475009, 475009],
-      "lng": [190658, 190658],
+      "normalizedPrice": [
+        2847,
+        2847
+      ],
+      "area": [
+        280,
+        280
+      ],
+      "lat": [
+        475009,
+        475009
+      ],
+      "lng": [
+        190658,
+        190658
+      ],
       "imagesPublicID": [
         "properties-init/40_1",
         "properties-init/40_2",
@@ -2675,10 +3223,22 @@
       "views": 3200,
       "favorites": 410,
       "status": "Active",
-      "normalizedPrice": [5076088, 5076088],
-      "area": [900, 900],
-      "lat": [435081, 435081],
-      "lng": [164402, 164402],
+      "normalizedPrice": [
+        5124404,
+        5124404
+      ],
+      "area": [
+        900,
+        900
+      ],
+      "lat": [
+        435081,
+        435081
+      ],
+      "lng": [
+        164402,
+        164402
+      ],
       "imagesPublicID": [
         "properties-init/41_1",
         "properties-init/41_2",
@@ -2747,10 +3307,22 @@
       "views": 1200,
       "favorites": 190,
       "status": "Active",
-      "normalizedPrice": [11280, 11280],
-      "area": [200, 200],
-      "lat": [454668, 454668],
-      "lng": [91930, 91930],
+      "normalizedPrice": [
+        11388,
+        11388
+      ],
+      "area": [
+        200,
+        200
+      ],
+      "lat": [
+        454668,
+        454668
+      ],
+      "lng": [
+        91930,
+        91930
+      ],
       "imagesPublicID": [
         "properties-init/42_1",
         "properties-init/42_2",
@@ -2818,11 +3390,26 @@
       "views": 740,
       "favorites": 85,
       "status": "Active",
-      "normalizedPrice": [394807, 394807],
-      "area": [250, 250],
-      "lat": [500647, 500647],
-      "lng": [199450, 199450],
-      "imagesPublicID": ["properties-init/43_1", "properties-init/43_2"]
+      "normalizedPrice": [
+        398565,
+        398565
+      ],
+      "area": [
+        250,
+        250
+      ],
+      "lat": [
+        500647,
+        500647
+      ],
+      "lng": [
+        199450,
+        199450
+      ],
+      "imagesPublicID": [
+        "properties-init/43_1",
+        "properties-init/43_2"
+      ]
     },
     {
       "id": "44",
@@ -2881,11 +3468,26 @@
       "views": 510,
       "favorites": 70,
       "status": "Active",
-      "normalizedPrice": [1015, 1015],
-      "area": [35, 35],
-      "lat": [482082, 482082],
-      "lng": [163738, 163738],
-      "imagesPublicID": ["properties-init/44_1", "properties-init/44_2"]
+      "normalizedPrice": [
+        1025,
+        1025
+      ],
+      "area": [
+        35,
+        35
+      ],
+      "lat": [
+        482082,
+        482082
+      ],
+      "lng": [
+        163738,
+        163738
+      ],
+      "imagesPublicID": [
+        "properties-init/44_1",
+        "properties-init/44_2"
+      ]
     },
     {
       "id": "45",
@@ -2944,11 +3546,26 @@
       "views": 920,
       "favorites": 130,
       "status": "Active",
-      "normalizedPrice": [315845, 315845],
-      "area": [95, 95],
-      "lat": [522298, 522298],
-      "lng": [210122, 210122],
-      "imagesPublicID": ["properties-init/45_1", "properties-init/45_2"]
+      "normalizedPrice": [
+        318852,
+        318852
+      ],
+      "area": [
+        95,
+        95
+      ],
+      "lat": [
+        522298,
+        522298
+      ],
+      "lng": [
+        210122,
+        210122
+      ],
+      "imagesPublicID": [
+        "properties-init/45_1",
+        "properties-init/45_2"
+      ]
     },
     {
       "id": "46",
@@ -3008,10 +3625,22 @@
       "views": 1120,
       "favorites": 180,
       "status": "Active",
-      "normalizedPrice": [5000, 5000],
-      "area": [250, 250],
-      "lat": [504501, 504501],
-      "lng": [305234, 305234],
+      "normalizedPrice": [
+        5000,
+        5000
+      ],
+      "area": [
+        250,
+        250
+      ],
+      "lat": [
+        504501,
+        504501
+      ],
+      "lng": [
+        305234,
+        305234
+      ],
       "imagesPublicID": [
         "properties-init/46_1",
         "properties-init/46_2",
@@ -3077,10 +3706,22 @@
       "views": 1320,
       "favorites": 290,
       "status": "Active",
-      "normalizedPrice": [5331020, 5331020],
-      "area": [500, 500],
-      "lat": [473769, 473769],
-      "lng": [85417, 85417],
+      "normalizedPrice": [
+        5381763,
+        5381763
+      ],
+      "area": [
+        500,
+        500
+      ],
+      "lat": [
+        473769,
+        473769
+      ],
+      "lng": [
+        85417,
+        85417
+      ],
       "imagesPublicID": [
         "properties-init/47_1",
         "properties-init/47_2",
@@ -3145,11 +3786,26 @@
       "views": 680,
       "favorites": 95,
       "status": "Active",
-      "normalizedPrice": [1805, 1805],
-      "area": [85, 85],
-      "lat": [500755, 500755],
-      "lng": [144378, 144378],
-      "imagesPublicID": ["properties-init/48_1", "properties-init/48_2"]
+      "normalizedPrice": [
+        1822,
+        1822
+      ],
+      "area": [
+        85,
+        85
+      ],
+      "lat": [
+        500755,
+        500755
+      ],
+      "lng": [
+        144378,
+        144378
+      ],
+      "imagesPublicID": [
+        "properties-init/48_1",
+        "properties-init/48_2"
+      ]
     },
     {
       "id": "49",
@@ -3208,11 +3864,26 @@
       "views": 450,
       "favorites": 75,
       "status": "Active",
-      "normalizedPrice": [120000, 120000],
-      "area": [150, 150],
-      "lat": [484480, 484480],
-      "lng": [245502, 245502],
-      "imagesPublicID": ["properties-init/49_1", "properties-init/49_2"]
+      "normalizedPrice": [
+        120000,
+        120000
+      ],
+      "area": [
+        150,
+        150
+      ],
+      "lat": [
+        484480,
+        484480
+      ],
+      "lng": [
+        245502,
+        245502
+      ],
+      "imagesPublicID": [
+        "properties-init/49_1",
+        "properties-init/49_2"
+      ]
     },
     {
       "id": "50",
@@ -3274,10 +3945,22 @@
       "views": 830,
       "favorites": 120,
       "status": "Active",
-      "normalizedPrice": [2482, 2482],
-      "area": [95, 95],
-      "lat": [474979, 474979],
-      "lng": [190402, 190402],
+      "normalizedPrice": [
+        2505,
+        2505
+      ],
+      "area": [
+        95,
+        95
+      ],
+      "lat": [
+        474979,
+        474979
+      ],
+      "lng": [
+        190402,
+        190402
+      ],
       "imagesPublicID": [
         "properties-init/50_1",
         "properties-init/50_2",
@@ -3343,11 +4026,26 @@
       "views": 940,
       "favorites": 180,
       "status": "Active",
-      "normalizedPrice": [879855, 879855],
-      "area": [200, 200],
-      "lat": [522298, 522298],
-      "lng": [210122, 210122],
-      "imagesPublicID": ["properties-init/51_1", "properties-init/51_2"]
+      "normalizedPrice": [
+        888230,
+        888230
+      ],
+      "area": [
+        200,
+        200
+      ],
+      "lat": [
+        522298,
+        522298
+      ],
+      "lng": [
+        210122,
+        210122
+      ],
+      "imagesPublicID": [
+        "properties-init/51_1",
+        "properties-init/51_2"
+      ]
     },
     {
       "id": "52",
@@ -3406,11 +4104,26 @@
       "views": 430,
       "favorites": 75,
       "status": "Active",
-      "normalizedPrice": [550, 550],
-      "area": [35, 35],
-      "lat": [498397, 498397],
-      "lng": [240297, 240297],
-      "imagesPublicID": ["properties-init/52_1", "properties-init/52_2"]
+      "normalizedPrice": [
+        550,
+        550
+      ],
+      "area": [
+        35,
+        35
+      ],
+      "lat": [
+        498397,
+        498397
+      ],
+      "lng": [
+        240297,
+        240297
+      ],
+      "imagesPublicID": [
+        "properties-init/52_1",
+        "properties-init/52_2"
+      ]
     },
     {
       "id": "53",
@@ -3469,11 +4182,26 @@
       "views": 880,
       "favorites": 140,
       "status": "Active",
-      "normalizedPrice": [1116739, 1116739],
-      "area": [300, 300],
-      "lat": [482082, 482082],
-      "lng": [163738, 163738],
-      "imagesPublicID": ["properties-init/53_1", "properties-init/53_2"]
+      "normalizedPrice": [
+        1127369,
+        1127369
+      ],
+      "area": [
+        300,
+        300
+      ],
+      "lat": [
+        482082,
+        482082
+      ],
+      "lng": [
+        163738,
+        163738
+      ],
+      "imagesPublicID": [
+        "properties-init/53_1",
+        "properties-init/53_2"
+      ]
     },
     {
       "id": "54",
@@ -3532,11 +4260,26 @@
       "views": 1120,
       "favorites": 200,
       "status": "Active",
-      "normalizedPrice": [5414, 5414],
-      "area": [200, 200],
-      "lat": [525163, 525163],
-      "lng": [133777, 133777],
-      "imagesPublicID": ["properties-init/54_1", "properties-init/54_2"]
+      "normalizedPrice": [
+        5466,
+        5466
+      ],
+      "area": [
+        200,
+        200
+      ],
+      "lat": [
+        525163,
+        525163
+      ],
+      "lng": [
+        133777,
+        133777
+      ],
+      "imagesPublicID": [
+        "properties-init/54_1",
+        "properties-init/54_2"
+      ]
     },
     {
       "id": "55",
@@ -3596,10 +4339,22 @@
       "views": 1250,
       "favorites": 300,
       "status": "Active",
-      "normalizedPrice": [2200000, 2200000],
-      "area": [450, 450],
-      "lat": [464825, 464825],
-      "lng": [307233, 307233],
+      "normalizedPrice": [
+        2200000,
+        2200000
+      ],
+      "area": [
+        450,
+        450
+      ],
+      "lat": [
+        464825,
+        464825
+      ],
+      "lng": [
+        307233,
+        307233
+      ],
       "imagesPublicID": [
         "properties-init/55_1",
         "properties-init/55_2",
@@ -3663,11 +4418,26 @@
       "views": 890,
       "favorites": 190,
       "status": "Active",
-      "normalizedPrice": [2030, 2030],
-      "area": [85, 85],
-      "lat": [454654, 454654],
-      "lng": [91859, 91859],
-      "imagesPublicID": ["properties-init/56_1", "properties-init/56_2"]
+      "normalizedPrice": [
+        2050,
+        2050
+      ],
+      "area": [
+        85,
+        85
+      ],
+      "lat": [
+        454654,
+        454654
+      ],
+      "lng": [
+        91859,
+        91859
+      ],
+      "imagesPublicID": [
+        "properties-init/56_1",
+        "properties-init/56_2"
+      ]
     },
     {
       "id": "57",
@@ -3726,11 +4496,26 @@
       "views": 760,
       "favorites": 120,
       "status": "Active",
-      "normalizedPrice": [609131, 609131],
-      "area": [160, 160],
-      "lat": [500880, 500880],
-      "lng": [144208, 144208],
-      "imagesPublicID": ["properties-init/57_1", "properties-init/57_2"]
+      "normalizedPrice": [
+        614928,
+        614928
+      ],
+      "area": [
+        160,
+        160
+      ],
+      "lat": [
+        500880,
+        500880
+      ],
+      "lng": [
+        144208,
+        144208
+      ],
+      "imagesPublicID": [
+        "properties-init/57_1",
+        "properties-init/57_2"
+      ]
     },
     {
       "id": "58",
@@ -3788,11 +4573,25 @@
       "views": 540,
       "favorites": 95,
       "status": "Active",
-      "normalizedPrice": [846, 846],
-      "area": [28, 28],
-      "lat": [525076, 525076],
-      "lng": [133904, 133904],
-      "imagesPublicID": ["properties-init/58_1"]
+      "normalizedPrice": [
+        854,
+        854
+      ],
+      "area": [
+        28,
+        28
+      ],
+      "lat": [
+        525076,
+        525076
+      ],
+      "lng": [
+        133904,
+        133904
+      ],
+      "imagesPublicID": [
+        "properties-init/58_1"
+      ]
     },
     {
       "id": "59",
@@ -3851,11 +4650,26 @@
       "views": 820,
       "favorites": 150,
       "status": "Active",
-      "normalizedPrice": [778333, 778333],
-      "area": [220, 220],
-      "lat": [522298, 522298],
-      "lng": [210122, 210122],
-      "imagesPublicID": ["properties-init/59_1", "properties-init/59_2"]
+      "normalizedPrice": [
+        785742,
+        785742
+      ],
+      "area": [
+        220,
+        220
+      ],
+      "lat": [
+        522298,
+        522298
+      ],
+      "lng": [
+        210122,
+        210122
+      ],
+      "imagesPublicID": [
+        "properties-init/59_1",
+        "properties-init/59_2"
+      ]
     },
     {
       "id": "60",
@@ -3914,11 +4728,26 @@
       "views": 950,
       "favorites": 210,
       "status": "Active",
-      "normalizedPrice": [1200, 1200],
-      "area": [75, 75],
-      "lat": [504501, 504501],
-      "lng": [305234, 305234],
-      "imagesPublicID": ["properties-init/60_1", "properties-init/60_2"]
+      "normalizedPrice": [
+        1200,
+        1200
+      ],
+      "area": [
+        75,
+        75
+      ],
+      "lat": [
+        504501,
+        504501
+      ],
+      "lng": [
+        305234,
+        305234
+      ],
+      "imagesPublicID": [
+        "properties-init/60_1",
+        "properties-init/60_2"
+      ]
     },
     {
       "id": "61",
@@ -3978,10 +4807,22 @@
       "views": 1300,
       "favorites": 280,
       "status": "Active",
-      "normalizedPrice": [3158455, 3158455],
-      "area": [500, 500],
-      "lat": [437102, 437102],
-      "lng": [72620, 72620],
+      "normalizedPrice": [
+        3188518,
+        3188518
+      ],
+      "area": [
+        500,
+        500
+      ],
+      "lat": [
+        437102,
+        437102
+      ],
+      "lng": [
+        72620,
+        72620
+      ],
       "imagesPublicID": [
         "properties-init/61_1",
         "properties-init/61_2",
@@ -4044,11 +4885,25 @@
       "views": 600,
       "favorites": 110,
       "status": "Active",
-      "normalizedPrice": [959, 959],
-      "area": [30, 30],
-      "lat": [482082, 482082],
-      "lng": [163738, 163738],
-      "imagesPublicID": ["properties-init/62_1"]
+      "normalizedPrice": [
+        968,
+        968
+      ],
+      "area": [
+        30,
+        30
+      ],
+      "lat": [
+        482082,
+        482082
+      ],
+      "lng": [
+        163738,
+        163738
+      ],
+      "imagesPublicID": [
+        "properties-init/62_1"
+      ]
     },
     {
       "id": "63",
@@ -4108,10 +4963,22 @@
       "views": 700,
       "favorites": 130,
       "status": "Active",
-      "normalizedPrice": [250000, 250000],
-      "area": [180, 180],
-      "lat": [498397, 498397],
-      "lng": [240297, 240297],
+      "normalizedPrice": [
+        250000,
+        250000
+      ],
+      "area": [
+        180,
+        180
+      ],
+      "lat": [
+        498397,
+        498397
+      ],
+      "lng": [
+        240297,
+        240297
+      ],
       "imagesPublicID": [
         "properties-init/63_1",
         "properties-init/63_2",
@@ -4175,11 +5042,26 @@
       "views": 900,
       "favorites": 190,
       "status": "Active",
-      "normalizedPrice": [2030, 2030],
-      "area": [90, 90],
-      "lat": [413888, 413888],
-      "lng": [21590, 21590],
-      "imagesPublicID": ["properties-init/64_1", "properties-init/64_2"]
+      "normalizedPrice": [
+        2050,
+        2050
+      ],
+      "area": [
+        90,
+        90
+      ],
+      "lat": [
+        413888,
+        413888
+      ],
+      "lng": [
+        21590,
+        21590
+      ],
+      "imagesPublicID": [
+        "properties-init/64_1",
+        "properties-init/64_2"
+      ]
     },
     {
       "id": "65",
@@ -4240,10 +5122,22 @@
       "views": 1400,
       "favorites": 310,
       "status": "Active",
-      "normalizedPrice": [3609663, 3609663],
-      "area": [600, 600],
-      "lat": [426507, 426507],
-      "lng": [180944, 180944],
+      "normalizedPrice": [
+        3644020,
+        3644020
+      ],
+      "area": [
+        600,
+        600
+      ],
+      "lat": [
+        426507,
+        426507
+      ],
+      "lng": [
+        180944,
+        180944
+      ],
       "imagesPublicID": [
         "properties-init/65_1",
         "properties-init/65_2",
@@ -4308,11 +5202,26 @@
       "views": 750,
       "favorites": 140,
       "status": "Active",
-      "normalizedPrice": [1072, 1072],
-      "area": [35, 35],
-      "lat": [525200, 525200],
-      "lng": [134050, 134050],
-      "imagesPublicID": ["properties-init/66_1", "properties-init/66_2"]
+      "normalizedPrice": [
+        1082,
+        1082
+      ],
+      "area": [
+        35,
+        35
+      ],
+      "lat": [
+        525200,
+        525200
+      ],
+      "lng": [
+        134050,
+        134050
+      ],
+      "imagesPublicID": [
+        "properties-init/66_1",
+        "properties-init/66_2"
+      ]
     },
     {
       "id": "67",
@@ -4371,11 +5280,26 @@
       "views": 860,
       "favorites": 170,
       "status": "Active",
-      "normalizedPrice": [360966, 360966],
-      "area": [120, 120],
-      "lat": [522298, 522298],
-      "lng": [210122, 210122],
-      "imagesPublicID": ["properties-init/67_1", "properties-init/67_2"]
+      "normalizedPrice": [
+        364402,
+        364402
+      ],
+      "area": [
+        120,
+        120
+      ],
+      "lat": [
+        522298,
+        522298
+      ],
+      "lng": [
+        210122,
+        210122
+      ],
+      "imagesPublicID": [
+        "properties-init/67_1",
+        "properties-init/67_2"
+      ]
     },
     {
       "id": "68",
@@ -4434,11 +5358,26 @@
       "views": 1100,
       "favorites": 240,
       "status": "Active",
-      "normalizedPrice": [2500, 2500],
-      "area": [200, 200],
-      "lat": [504454, 504454],
-      "lng": [305186, 305186],
-      "imagesPublicID": ["properties-init/68_1", "properties-init/68_2"]
+      "normalizedPrice": [
+        2500,
+        2500
+      ],
+      "area": [
+        200,
+        200
+      ],
+      "lat": [
+        504454,
+        504454
+      ],
+      "lng": [
+        305186,
+        305186
+      ],
+      "imagesPublicID": [
+        "properties-init/68_1",
+        "properties-init/68_2"
+      ]
     },
     {
       "id": "69",
@@ -4498,10 +5437,22 @@
       "views": 1300,
       "favorites": 280,
       "status": "Active",
-      "normalizedPrice": [3158455, 3158455],
-      "area": [500, 500],
-      "lat": [437102, 437102],
-      "lng": [72620, 72620],
+      "normalizedPrice": [
+        3188518,
+        3188518
+      ],
+      "area": [
+        500,
+        500
+      ],
+      "lat": [
+        437102,
+        437102
+      ],
+      "lng": [
+        72620,
+        72620
+      ],
       "imagesPublicID": [
         "properties-init/69_1",
         "properties-init/69_2",
@@ -4565,11 +5516,26 @@
       "views": 600,
       "favorites": 120,
       "status": "Active",
-      "normalizedPrice": [1241, 1241],
-      "area": [40, 40],
-      "lat": [482082, 482082],
-      "lng": [163738, 163738],
-      "imagesPublicID": ["properties-init/70_1", "properties-init/70_2"]
+      "normalizedPrice": [
+        1253,
+        1253
+      ],
+      "area": [
+        40,
+        40
+      ],
+      "lat": [
+        482082,
+        482082
+      ],
+      "lng": [
+        163738,
+        163738
+      ],
+      "imagesPublicID": [
+        "properties-init/70_1",
+        "properties-init/70_2"
+      ]
     },
     {
       "id": "71",
@@ -4628,11 +5594,26 @@
       "views": 920,
       "favorites": 190,
       "status": "Active",
-      "normalizedPrice": [507609, 507609],
-      "area": [180, 180],
-      "lat": [500647, 500647],
-      "lng": [199450, 199450],
-      "imagesPublicID": ["properties-init/71_1", "properties-init/71_2"]
+      "normalizedPrice": [
+        512440,
+        512440
+      ],
+      "area": [
+        180,
+        180
+      ],
+      "lat": [
+        500647,
+        500647
+      ],
+      "lng": [
+        199450,
+        199450
+      ],
+      "imagesPublicID": [
+        "properties-init/71_1",
+        "properties-init/71_2"
+      ]
     },
     {
       "id": "72",
@@ -4691,11 +5672,26 @@
       "views": 1050,
       "favorites": 230,
       "status": "Active",
-      "normalizedPrice": [2206, 2206],
-      "area": [85, 85],
-      "lat": [525218, 525218],
-      "lng": [134132, 134132],
-      "imagesPublicID": ["properties-init/72_1", "properties-init/72_2"]
+      "normalizedPrice": [
+        2278,
+        2278
+      ],
+      "area": [
+        85,
+        85
+      ],
+      "lat": [
+        525218,
+        525218
+      ],
+      "lng": [
+        134132,
+        134132
+      ],
+      "imagesPublicID": [
+        "properties-init/72_1",
+        "properties-init/72_2"
+      ]
     },
     {
       "id": "73",
@@ -4755,10 +5751,22 @@
       "views": 1500,
       "favorites": 300,
       "status": "Active",
-      "normalizedPrice": [3530238, 3530238],
-      "area": [600, 600],
-      "lat": [413917, 413917],
-      "lng": [21649, 21649],
+      "normalizedPrice": [
+        3644020,
+        3644020
+      ],
+      "area": [
+        600,
+        600
+      ],
+      "lat": [
+        413917,
+        413917
+      ],
+      "lng": [
+        21649,
+        21649
+      ],
       "imagesPublicID": [
         "properties-init/73_1",
         "properties-init/73_2",
@@ -4822,11 +5830,26 @@
       "views": 700,
       "favorites": 150,
       "status": "Active",
-      "normalizedPrice": [993, 993],
-      "area": [35, 35],
-      "lat": [500875, 500875],
-      "lng": [144204, 144204],
-      "imagesPublicID": ["properties-init/74_1", "properties-init/74_2"]
+      "normalizedPrice": [
+        1025,
+        1025
+      ],
+      "area": [
+        35,
+        35
+      ],
+      "lat": [
+        500875,
+        500875
+      ],
+      "lng": [
+        144204,
+        144204
+      ],
+      "imagesPublicID": [
+        "properties-init/74_1",
+        "properties-init/74_2"
+      ]
     },
     {
       "id": "75",
@@ -4885,11 +5908,26 @@
       "views": 890,
       "favorites": 175,
       "status": "Active",
-      "normalizedPrice": [419216, 419216],
-      "area": [250, 250],
-      "lat": [504017, 504017],
-      "lng": [304498, 304498],
-      "imagesPublicID": ["properties-init/75_1", "properties-init/75_2"]
+      "normalizedPrice": [
+        432727,
+        432727
+      ],
+      "area": [
+        250,
+        250
+      ],
+      "lat": [
+        504017,
+        504017
+      ],
+      "lng": [
+        304498,
+        304498
+      ],
+      "imagesPublicID": [
+        "properties-init/75_1",
+        "properties-init/75_2"
+      ]
     },
     {
       "id": "76",
@@ -4948,11 +5986,26 @@
       "views": 1200,
       "favorites": 260,
       "status": "Active",
-      "normalizedPrice": [2537, 2537],
-      "area": [90, 90],
-      "lat": [522298, 522298],
-      "lng": [210118, 210118],
-      "imagesPublicID": ["properties-init/76_1", "properties-init/76_2"]
+      "normalizedPrice": [
+        2619,
+        2619
+      ],
+      "area": [
+        90,
+        90
+      ],
+      "lat": [
+        522298,
+        522298
+      ],
+      "lng": [
+        210118,
+        210118
+      ],
+      "imagesPublicID": [
+        "properties-init/76_1",
+        "properties-init/76_2"
+      ]
     },
     {
       "id": "77",
@@ -5012,10 +6065,22 @@
       "views": 1750,
       "favorites": 350,
       "status": "Active",
-      "normalizedPrice": [4523117, 4523117],
-      "area": [750, 750],
-      "lat": [437034, 437034],
-      "lng": [72663, 72663],
+      "normalizedPrice": [
+        4668901,
+        4668901
+      ],
+      "area": [
+        750,
+        750
+      ],
+      "lat": [
+        437034,
+        437034
+      ],
+      "lng": [
+        72663,
+        72663
+      ],
       "imagesPublicID": [
         "properties-init/77_1",
         "properties-init/77_2",
@@ -5079,11 +6144,26 @@
       "views": 620,
       "favorites": 135,
       "status": "Active",
-      "normalizedPrice": [959, 959],
-      "area": [28, 28],
-      "lat": [474980, 474980],
-      "lng": [190399, 190399],
-      "imagesPublicID": ["properties-init/78_1", "properties-init/78_2"]
+      "normalizedPrice": [
+        968,
+        968
+      ],
+      "area": [
+        28,
+        28
+      ],
+      "lat": [
+        474980,
+        474980
+      ],
+      "lng": [
+        190399,
+        190399
+      ],
+      "imagesPublicID": [
+        "properties-init/78_1",
+        "properties-init/78_2"
+      ]
     },
     {
       "id": "79",
@@ -5142,11 +6222,26 @@
       "views": 980,
       "favorites": 210,
       "status": "Active",
-      "normalizedPrice": [699372, 699372],
-      "area": [95, 95],
-      "lat": [525200, 525200],
-      "lng": [134050, 134050],
-      "imagesPublicID": ["properties-init/79_1", "properties-init/79_2"]
+      "normalizedPrice": [
+        706029,
+        706029
+      ],
+      "area": [
+        95,
+        95
+      ],
+      "lat": [
+        525200,
+        525200
+      ],
+      "lng": [
+        134050,
+        134050
+      ],
+      "imagesPublicID": [
+        "properties-init/79_1",
+        "properties-init/79_2"
+      ]
     },
     {
       "id": "80",
@@ -5205,11 +6300,26 @@
       "views": 750,
       "favorites": 140,
       "status": "Active",
-      "normalizedPrice": [1354, 1354],
-      "area": [180, 180],
-      "lat": [498397, 498397],
-      "lng": [240297, 240297],
-      "imagesPublicID": ["properties-init/80_1", "properties-init/80_2"]
+      "normalizedPrice": [
+        1367,
+        1367
+      ],
+      "area": [
+        180,
+        180
+      ],
+      "lat": [
+        498397,
+        498397
+      ],
+      "lng": [
+        240297,
+        240297
+      ],
+      "imagesPublicID": [
+        "properties-init/80_1",
+        "properties-init/80_2"
+      ]
     },
     {
       "id": "81",
@@ -5270,10 +6380,22 @@
       "views": 1850,
       "favorites": 400,
       "status": "Active",
-      "normalizedPrice": [3609663, 3609663],
-      "area": [850, 850],
-      "lat": [365074, 365074],
-      "lng": [-48858, -48858],
+      "normalizedPrice": [
+        3644020,
+        3644020
+      ],
+      "area": [
+        850,
+        850
+      ],
+      "lat": [
+        365074,
+        365074
+      ],
+      "lng": [
+        -48858,
+        -48858
+      ],
       "imagesPublicID": [
         "properties-init/81_1",
         "properties-init/81_2",
@@ -5338,11 +6460,26 @@
       "views": 540,
       "favorites": 120,
       "status": "Active",
-      "normalizedPrice": [846, 846],
-      "area": [30, 30],
-      "lat": [500875, 500875],
-      "lng": [144208, 144208],
-      "imagesPublicID": ["properties-init/82_1", "properties-init/82_2"]
+      "normalizedPrice": [
+        854,
+        854
+      ],
+      "area": [
+        30,
+        30
+      ],
+      "lat": [
+        500875,
+        500875
+      ],
+      "lng": [
+        144208,
+        144208
+      ],
+      "imagesPublicID": [
+        "properties-init/82_1",
+        "properties-init/82_2"
+      ]
     },
     {
       "id": "83",
@@ -5402,10 +6539,22 @@
       "views": 670,
       "favorites": 150,
       "status": "Active",
-      "normalizedPrice": [1071619, 1071619],
-      "area": [350, 350],
-      "lat": [522298, 522298],
-      "lng": [210122, 210122],
+      "normalizedPrice": [
+        1081819,
+        1081819
+      ],
+      "area": [
+        350,
+        350
+      ],
+      "lat": [
+        522298,
+        522298
+      ],
+      "lng": [
+        210122,
+        210122
+      ],
       "imagesPublicID": [
         "properties-init/83_1",
         "properties-init/83_2",
@@ -5469,11 +6618,26 @@
       "views": 820,
       "favorites": 190,
       "status": "Active",
-      "normalizedPrice": [2030, 2030],
-      "area": [110, 110],
-      "lat": [482082, 482082],
-      "lng": [163738, 163738],
-      "imagesPublicID": ["properties-init/84_1", "properties-init/84_2"]
+      "normalizedPrice": [
+        2050,
+        2050
+      ],
+      "area": [
+        110,
+        110
+      ],
+      "lat": [
+        482082,
+        482082
+      ],
+      "lng": [
+        163738,
+        163738
+      ],
+      "imagesPublicID": [
+        "properties-init/84_1",
+        "properties-init/84_2"
+      ]
     },
     {
       "id": "85",
@@ -5532,11 +6696,26 @@
       "views": 940,
       "favorites": 230,
       "status": "Active",
-      "normalizedPrice": [360966, 360966],
-      "area": [250, 250],
-      "lat": [504879, 504879],
-      "lng": [304982, 304982],
-      "imagesPublicID": ["properties-init/85_1", "properties-init/85_2"]
+      "normalizedPrice": [
+        364402,
+        364402
+      ],
+      "area": [
+        250,
+        250
+      ],
+      "lat": [
+        504879,
+        504879
+      ],
+      "lng": [
+        304982,
+        304982
+      ],
+      "imagesPublicID": [
+        "properties-init/85_1",
+        "properties-init/85_2"
+      ]
     },
     {
       "id": "86",
@@ -5595,11 +6774,26 @@
       "views": 510,
       "favorites": 110,
       "status": "Active",
-      "normalizedPrice": [733, 733],
-      "area": [28, 28],
-      "lat": [475000, 475000],
-      "lng": [190500, 190500],
-      "imagesPublicID": ["properties-init/86_1", "properties-init/86_2"]
+      "normalizedPrice": [
+        740,
+        740
+      ],
+      "area": [
+        28,
+        28
+      ],
+      "lat": [
+        475000,
+        475000
+      ],
+      "lng": [
+        190500,
+        190500
+      ],
+      "imagesPublicID": [
+        "properties-init/86_1",
+        "properties-init/86_2"
+      ]
     },
     {
       "id": "87",
@@ -5660,10 +6854,22 @@
       "views": 1250,
       "favorites": 320,
       "status": "Active",
-      "normalizedPrice": [2820049, 2820049],
-      "area": [450, 450],
-      "lat": [436947, 436947],
-      "lng": [72653, 72653],
+      "normalizedPrice": [
+        2846891,
+        2846891
+      ],
+      "area": [
+        450,
+        450
+      ],
+      "lat": [
+        436947,
+        436947
+      ],
+      "lng": [
+        72653,
+        72653
+      ],
       "imagesPublicID": [
         "properties-init/87_1",
         "properties-init/87_2",
@@ -5728,11 +6934,26 @@
       "views": 860,
       "favorites": 210,
       "status": "Active",
-      "normalizedPrice": [2369, 2369],
-      "area": [85, 85],
-      "lat": [413917, 413917],
-      "lng": [21650, 21650],
-      "imagesPublicID": ["properties-init/88_1", "properties-init/88_2"]
+      "normalizedPrice": [
+        2391,
+        2391
+      ],
+      "area": [
+        85,
+        85
+      ],
+      "lat": [
+        413917,
+        413917
+      ],
+      "lng": [
+        21650,
+        21650
+      ],
+      "imagesPublicID": [
+        "properties-init/88_1",
+        "properties-init/88_2"
+      ]
     },
     {
       "id": "89",
@@ -5791,11 +7012,26 @@
       "views": 760,
       "favorites": 180,
       "status": "Active",
-      "normalizedPrice": [203044, 203044],
-      "area": [220, 220],
-      "lat": [498013, 498013],
-      "lng": [240573, 240573],
-      "imagesPublicID": ["properties-init/89_1", "properties-init/89_2"]
+      "normalizedPrice": [
+        204976,
+        204976
+      ],
+      "area": [
+        220,
+        220
+      ],
+      "lat": [
+        498013,
+        498013
+      ],
+      "lng": [
+        240573,
+        240573
+      ],
+      "imagesPublicID": [
+        "properties-init/89_1",
+        "properties-init/89_2"
+      ]
     },
     {
       "id": "90",
@@ -5854,11 +7090,26 @@
       "views": 680,
       "favorites": 150,
       "status": "Active",
-      "normalizedPrice": [1354, 1354],
-      "area": [35, 35],
-      "lat": [525218, 525218],
-      "lng": [134132, 134132],
-      "imagesPublicID": ["properties-init/90_1", "properties-init/90_2"]
+      "normalizedPrice": [
+        1367,
+        1367
+      ],
+      "area": [
+        35,
+        35
+      ],
+      "lat": [
+        525218,
+        525218
+      ],
+      "lng": [
+        134132,
+        134132
+      ],
+      "imagesPublicID": [
+        "properties-init/90_1",
+        "properties-init/90_2"
+      ]
     },
     {
       "id": "91",
@@ -5917,11 +7168,26 @@
       "views": 970,
       "favorites": 250,
       "status": "Active",
-      "normalizedPrice": [1105459, 1105459],
-      "area": [380, 380],
-      "lat": [380723, 380723],
-      "lng": [238083, 238083],
-      "imagesPublicID": ["properties-init/91_1", "properties-init/91_2"]
+      "normalizedPrice": [
+        1115981,
+        1115981
+      ],
+      "area": [
+        380,
+        380
+      ],
+      "lat": [
+        380723,
+        380723
+      ],
+      "lng": [
+        238083,
+        238083
+      ],
+      "imagesPublicID": [
+        "properties-init/91_1",
+        "properties-init/91_2"
+      ]
     },
     {
       "id": "92",
@@ -5980,11 +7246,26 @@
       "views": 890,
       "favorites": 220,
       "status": "Active",
-      "normalizedPrice": [2820, 2820],
-      "area": [190, 190],
-      "lat": [521963, 521963],
-      "lng": [210362, 210362],
-      "imagesPublicID": ["properties-init/92_1", "properties-init/92_2"]
+      "normalizedPrice": [
+        2847,
+        2847
+      ],
+      "area": [
+        190,
+        190
+      ],
+      "lat": [
+        521963,
+        521963
+      ],
+      "lng": [
+        210362,
+        210362
+      ],
+      "imagesPublicID": [
+        "properties-init/92_1",
+        "properties-init/92_2"
+      ]
     },
     {
       "id": "93",
@@ -6043,11 +7324,26 @@
       "views": 670,
       "favorites": 140,
       "status": "Active",
-      "normalizedPrice": [84601, 84601],
-      "area": [40, 40],
-      "lat": [504265, 504265],
-      "lng": [305368, 305368],
-      "imagesPublicID": ["properties-init/93_1", "properties-init/93_2"]
+      "normalizedPrice": [
+        85407,
+        85407
+      ],
+      "area": [
+        40,
+        40
+      ],
+      "lat": [
+        504265,
+        504265
+      ],
+      "lng": [
+        305368,
+        305368
+      ],
+      "imagesPublicID": [
+        "properties-init/93_1",
+        "properties-init/93_2"
+      ]
     },
     {
       "id": "94",
@@ -6106,11 +7402,26 @@
       "views": 830,
       "favorites": 200,
       "status": "Active",
-      "normalizedPrice": [2030, 2030],
-      "area": [90, 90],
-      "lat": [500880, 500880],
-      "lng": [144208, 144208],
-      "imagesPublicID": ["properties-init/94_1", "properties-init/94_2"]
+      "normalizedPrice": [
+        2050,
+        2050
+      ],
+      "area": [
+        90,
+        90
+      ],
+      "lat": [
+        500880,
+        500880
+      ],
+      "lng": [
+        144208,
+        144208
+      ],
+      "imagesPublicID": [
+        "properties-init/94_1",
+        "properties-init/94_2"
+      ]
     },
     {
       "id": "95",
@@ -6169,11 +7480,26 @@
       "views": 780,
       "favorites": 210,
       "status": "Active",
-      "normalizedPrice": [360966, 360966],
-      "area": [220, 220],
-      "lat": [444622, 444622],
-      "lng": [260939, 260939],
-      "imagesPublicID": ["properties-init/95_1", "properties-init/95_2"]
+      "normalizedPrice": [
+        364402,
+        364402
+      ],
+      "area": [
+        220,
+        220
+      ],
+      "lat": [
+        444622,
+        444622
+      ],
+      "lng": [
+        260939,
+        260939
+      ],
+      "imagesPublicID": [
+        "properties-init/95_1",
+        "properties-init/95_2"
+      ]
     },
     {
       "id": "96",
@@ -6231,11 +7557,25 @@
       "views": 690,
       "favorites": 150,
       "status": "Active",
-      "normalizedPrice": [508, 508],
-      "area": [38, 38],
-      "lat": [498397, 498397],
-      "lng": [240297, 240297],
-      "imagesPublicID": ["properties-init/96_1"]
+      "normalizedPrice": [
+        512,
+        512
+      ],
+      "area": [
+        38,
+        38
+      ],
+      "lat": [
+        498397,
+        498397
+      ],
+      "lng": [
+        240297,
+        240297
+      ],
+      "imagesPublicID": [
+        "properties-init/96_1"
+      ]
     },
     {
       "id": "97",
@@ -6294,11 +7634,26 @@
       "views": 1020,
       "favorites": 280,
       "status": "Active",
-      "normalizedPrice": [958817, 958817],
-      "area": [120, 120],
-      "lat": [525200, 525200],
-      "lng": [134050, 134050],
-      "imagesPublicID": ["properties-init/97_1", "properties-init/97_2"]
+      "normalizedPrice": [
+        967943,
+        967943
+      ],
+      "area": [
+        120,
+        120
+      ],
+      "lat": [
+        525200,
+        525200
+      ],
+      "lng": [
+        134050,
+        134050
+      ],
+      "imagesPublicID": [
+        "properties-init/97_1",
+        "properties-init/97_2"
+      ]
     },
     {
       "id": "98",
@@ -6359,10 +7714,22 @@
       "views": 890,
       "favorites": 190,
       "status": "Active",
-      "normalizedPrice": [3948, 3948],
-      "area": [200, 200],
-      "lat": [454642, 454642],
-      "lng": [91900, 91900],
+      "normalizedPrice": [
+        3986,
+        3986
+      ],
+      "area": [
+        200,
+        200
+      ],
+      "lat": [
+        454642,
+        454642
+      ],
+      "lng": [
+        91900,
+        91900
+      ],
       "imagesPublicID": [
         "properties-init/98_1",
         "properties-init/98_2",
@@ -6428,10 +7795,22 @@
       "views": 1045,
       "favorites": 312,
       "status": "Active",
-      "normalizedPrice": [1071619, 1071619],
-      "area": [350, 350],
-      "lat": [464285, 464285],
-      "lng": [307618, 307618],
+      "normalizedPrice": [
+        1081819,
+        1081819
+      ],
+      "area": [
+        350,
+        350
+      ],
+      "lat": [
+        464285,
+        464285
+      ],
+      "lng": [
+        307618,
+        307618
+      ],
       "imagesPublicID": [
         "properties-init/99_1",
         "properties-init/99_2",
@@ -6495,11 +7874,26 @@
       "views": 876,
       "favorites": 214,
       "status": "Active",
-      "normalizedPrice": [1354, 1354],
-      "area": [85, 85],
-      "lat": [521791, 521791],
-      "lng": [210213, 210213],
-      "imagesPublicID": ["properties-init/100_1", "properties-init/100_2"]
+      "normalizedPrice": [
+        1367,
+        1367
+      ],
+      "area": [
+        85,
+        85
+      ],
+      "lat": [
+        521791,
+        521791
+      ],
+      "lng": [
+        210213,
+        210213
+      ],
+      "imagesPublicID": [
+        "properties-init/100_1",
+        "properties-init/100_2"
+      ]
     }
   ]
 }

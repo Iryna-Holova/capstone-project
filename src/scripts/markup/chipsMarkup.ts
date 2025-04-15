@@ -1,8 +1,9 @@
-import spriteUrl from "../../assets/sprite.svg";
 import { Details } from "../types/propertyParts";
 
-export const chipsMarkup = (data: Details): string =>
-  Object.entries(data)
+export const chipsMarkup = (data: Details): string => {
+  const spriteUrl = "/static/sprite.svg";
+
+  return Object.entries(data)
     .map(([key, value]) =>
       value
         ? `<li>
@@ -14,3 +15,4 @@ export const chipsMarkup = (data: Details): string =>
         : ""
     )
     .join("");
+};

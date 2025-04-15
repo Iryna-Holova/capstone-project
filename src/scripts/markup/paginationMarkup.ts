@@ -1,5 +1,3 @@
-import spriteUrl from "../../assets/sprite.svg";
-
 export const paginationMarkup = (
   activePage: number,
   totalPages: number
@@ -29,6 +27,7 @@ export const paginationMarkup = (
 
   const prevPage = activePage === 1 ? false : activePage - 1;
   const nextPage = activePage === totalPages ? false : activePage + 1;
+  const spriteUrl = "/static/sprite.svg";
 
   return `
     <button

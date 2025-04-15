@@ -1,20 +1,18 @@
-FROM node:20-alpine
+# Build stage
+FROM node:20-alpine AS builder
 WORKDIR /app
-
 COPY package*.json ./
 RUN npm install
-RUN npm install -g serve
-
 COPY . .
-
-# Create a script to start both services
-RUN echo '#!/bin/sh\n\
-npx json-server --host 0.0.0.0 --watch db.json --port 3001 & \n\
-serve -s dist -l 1234 \n\
-' > start.sh && chmod +x start.sh
-
 RUN npm run build
 
-EXPOSE 1234
-
-CMD ["./start.sh"]
+# Production stage
+FROM node:20-alpine AS production
+WORKDIR /app
+COPY package*.json ./
+RUN npm install --omit=dev
+COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/db.json ./db.json
+COPY --from=builder /app/server.js .
+EXPOSE 1234 3001
+CMD ["npm", "run", "start"]

@@ -1,10 +1,11 @@
-import spriteUrl from "../../assets/sprite.svg";
-
 export const metaInfoMarkup = (
   date: string,
   views: number,
   favorites: number
-): string => `
+): string => {
+  const spriteUrl = "/static/sprite.svg";
+
+  return `
   <span>
     <span>${views}</span>
     <svg width="16" height="16">
@@ -19,3 +20,4 @@ export const metaInfoMarkup = (
   </span>
   <span>Posted ${date}</span>
   `;
+};

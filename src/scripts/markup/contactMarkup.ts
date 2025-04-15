@@ -1,8 +1,9 @@
 import { Contact } from "../types/propertyParts";
-import spriteUrl from "../../assets/sprite.svg";
 
-export const contactMarkup = (contact: Contact): string =>
-  `<h3>Contact</h3>
+export const contactMarkup = (contact: Contact): string => {
+  const spriteUrl = "/static/sprite.svg";
+
+  return `<h3>Contact</h3>
     <div>
       <span>${contact.name}</span>
       <span>${contact.type}</span></div>
@@ -19,3 +20,4 @@ export const contactMarkup = (contact: Contact): string =>
         <span>Email</span></a>
       </li>
     </ul>`;
+};

@@ -29,7 +29,10 @@ export class ImageSlider {
 
     this.container.addEventListener("mouseenter", this.pauseAutoplay);
     this.container.addEventListener("mouseleave", this.startAutoplay);
-
+    setTimeout(
+      () => this.slides[4].classList.remove("is-start"),
+      this.autoplayInterval
+    );
     this.startAutoplay();
   }
 
